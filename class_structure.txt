@@ -1,0 +1,35 @@
+Graph
+Attributes:
+  List of nodes
+Behavior:
+  getNeighbors(Node n)
+    returns node []
+
+Nodes (neighborhoods)
+Attributes:
+  List of neighbors
+  Rent prices
+  Location: coordinates
+  Income per capita
+  List of agents in it
+Behavior:
+  getNeighbors() // to make its list of neighbors
+    myneighbors = graph.getNeighbors(self)
+  addAgent(agent) // adds an agent to list of agents
+  removeAgent(agent)
+  calculateIncome() // loops through neighbors and calculates income/person
+  updateRent()
+  calculateDist
+
+Agents
+Attributes:
+  Neighborhood (node)
+  Salary
+  future steps: probablility of leaving, race
+Behavior:
+
+
+Main Control class
+- takes data file
+- creates graph
+- updates rent over time calling node.updateRent()

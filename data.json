@@ -1,0 +1,4118 @@
+{
+  "essex": [
+    {
+      "NAME": "Census Tract 2011",
+      "county": "009",
+      "state": "25",
+      "tract": "201100"
+    },
+    {
+      "NAME": "Census Tract 2021.01",
+      "county": "009",
+      "state": "25",
+      "tract": "202101"
+    },
+    {
+      "NAME": "Census Tract 2021.02",
+      "county": "009",
+      "state": "25",
+      "tract": "202102"
+    },
+    {
+      "NAME": "Census Tract 2022",
+      "county": "009",
+      "state": "25",
+      "tract": "202200"
+    },
+    {
+      "NAME": "Census Tract 2031",
+      "county": "009",
+      "state": "25",
+      "tract": "203100"
+    },
+    {
+      "NAME": "Census Tract 2032",
+      "county": "009",
+      "state": "25",
+      "tract": "203200"
+    },
+    {
+      "NAME": "Census Tract 2033.01",
+      "county": "009",
+      "state": "25",
+      "tract": "203301"
+    },
+    {
+      "NAME": "Census Tract 2033.02",
+      "county": "009",
+      "state": "25",
+      "tract": "203302"
+    },
+    {
+      "NAME": "Census Tract 2041.01",
+      "county": "009",
+      "state": "25",
+      "tract": "204101"
+    },
+    {
+      "NAME": "Census Tract 2041.02",
+      "county": "009",
+      "state": "25",
+      "tract": "204102"
+    },
+    {
+      "NAME": "Census Tract 2042",
+      "county": "009",
+      "state": "25",
+      "tract": "204200"
+    },
+    {
+      "NAME": "Census Tract 2043",
+      "county": "009",
+      "state": "25",
+      "tract": "204300"
+    },
+    {
+      "NAME": "Census Tract 2044",
+      "county": "009",
+      "state": "25",
+      "tract": "204400"
+    },
+    {
+      "NAME": "Census Tract 2045",
+      "county": "009",
+      "state": "25",
+      "tract": "204500"
+    },
+    {
+      "NAME": "Census Tract 2046",
+      "county": "009",
+      "state": "25",
+      "tract": "204600"
+    },
+    {
+      "NAME": "Census Tract 2047.01",
+      "county": "009",
+      "state": "25",
+      "tract": "204701"
+    },
+    {
+      "NAME": "Census Tract 2047.02",
+      "county": "009",
+      "state": "25",
+      "tract": "204702"
+    },
+    {
+      "NAME": "Census Tract 2051",
+      "county": "009",
+      "state": "25",
+      "tract": "205100"
+    },
+    {
+      "NAME": "Census Tract 2052",
+      "county": "009",
+      "state": "25",
+      "tract": "205200"
+    },
+    {
+      "NAME": "Census Tract 2053",
+      "county": "009",
+      "state": "25",
+      "tract": "205300"
+    },
+    {
+      "NAME": "Census Tract 2054",
+      "county": "009",
+      "state": "25",
+      "tract": "205400"
+    },
+    {
+      "NAME": "Census Tract 2055",
+      "county": "009",
+      "state": "25",
+      "tract": "205500"
+    },
+    {
+      "NAME": "Census Tract 2056",
+      "county": "009",
+      "state": "25",
+      "tract": "205600"
+    },
+    {
+      "NAME": "Census Tract 2057",
+      "county": "009",
+      "state": "25",
+      "tract": "205700"
+    },
+    {
+      "NAME": "Census Tract 2058",
+      "county": "009",
+      "state": "25",
+      "tract": "205800"
+    },
+    {
+      "NAME": "Census Tract 2059",
+      "county": "009",
+      "state": "25",
+      "tract": "205900"
+    },
+    {
+      "NAME": "Census Tract 2060",
+      "county": "009",
+      "state": "25",
+      "tract": "206000"
+    },
+    {
+      "NAME": "Census Tract 2061",
+      "county": "009",
+      "state": "25",
+      "tract": "206100"
+    },
+    {
+      "NAME": "Census Tract 2062",
+      "county": "009",
+      "state": "25",
+      "tract": "206200"
+    },
+    {
+      "NAME": "Census Tract 2063",
+      "county": "009",
+      "state": "25",
+      "tract": "206300"
+    },
+    {
+      "NAME": "Census Tract 2064",
+      "county": "009",
+      "state": "25",
+      "tract": "206400"
+    },
+    {
+      "NAME": "Census Tract 2065",
+      "county": "009",
+      "state": "25",
+      "tract": "206500"
+    },
+    {
+      "NAME": "Census Tract 2066",
+      "county": "009",
+      "state": "25",
+      "tract": "206600"
+    },
+    {
+      "NAME": "Census Tract 2067",
+      "county": "009",
+      "state": "25",
+      "tract": "206700"
+    },
+    {
+      "NAME": "Census Tract 2068",
+      "county": "009",
+      "state": "25",
+      "tract": "206800"
+    },
+    {
+      "NAME": "Census Tract 2069",
+      "county": "009",
+      "state": "25",
+      "tract": "206900"
+    },
+    {
+      "NAME": "Census Tract 2070",
+      "county": "009",
+      "state": "25",
+      "tract": "207000"
+    },
+    {
+      "NAME": "Census Tract 2071",
+      "county": "009",
+      "state": "25",
+      "tract": "207100"
+    },
+    {
+      "NAME": "Census Tract 2072",
+      "county": "009",
+      "state": "25",
+      "tract": "207200"
+    },
+    {
+      "NAME": "Census Tract 2081.01",
+      "county": "009",
+      "state": "25",
+      "tract": "208101"
+    },
+    {
+      "NAME": "Census Tract 2081.02",
+      "county": "009",
+      "state": "25",
+      "tract": "208102"
+    },
+    {
+      "NAME": "Census Tract 2082",
+      "county": "009",
+      "state": "25",
+      "tract": "208200"
+    },
+    {
+      "NAME": "Census Tract 2083",
+      "county": "009",
+      "state": "25",
+      "tract": "208300"
+    },
+    {
+      "NAME": "Census Tract 2084",
+      "county": "009",
+      "state": "25",
+      "tract": "208400"
+    },
+    {
+      "NAME": "Census Tract 2091",
+      "county": "009",
+      "state": "25",
+      "tract": "209100"
+    },
+    {
+      "NAME": "Census Tract 2092",
+      "county": "009",
+      "state": "25",
+      "tract": "209200"
+    },
+    {
+      "NAME": "Census Tract 2101",
+      "county": "009",
+      "state": "25",
+      "tract": "210100"
+    },
+    {
+      "NAME": "Census Tract 2102",
+      "county": "009",
+      "state": "25",
+      "tract": "210200"
+    },
+    {
+      "NAME": "Census Tract 2103",
+      "county": "009",
+      "state": "25",
+      "tract": "210300"
+    },
+    {
+      "NAME": "Census Tract 2104",
+      "county": "009",
+      "state": "25",
+      "tract": "210400"
+    },
+    {
+      "NAME": "Census Tract 2105",
+      "county": "009",
+      "state": "25",
+      "tract": "210500"
+    },
+    {
+      "NAME": "Census Tract 2106",
+      "county": "009",
+      "state": "25",
+      "tract": "210600"
+    },
+    {
+      "NAME": "Census Tract 2107",
+      "county": "009",
+      "state": "25",
+      "tract": "210700"
+    },
+    {
+      "NAME": "Census Tract 2108",
+      "county": "009",
+      "state": "25",
+      "tract": "210800"
+    },
+    {
+      "NAME": "Census Tract 2109",
+      "county": "009",
+      "state": "25",
+      "tract": "210900"
+    },
+    {
+      "NAME": "Census Tract 2111",
+      "county": "009",
+      "state": "25",
+      "tract": "211100"
+    },
+    {
+      "NAME": "Census Tract 2112",
+      "county": "009",
+      "state": "25",
+      "tract": "211200"
+    },
+    {
+      "NAME": "Census Tract 2113",
+      "county": "009",
+      "state": "25",
+      "tract": "211300"
+    },
+    {
+      "NAME": "Census Tract 2114.01",
+      "county": "009",
+      "state": "25",
+      "tract": "211401"
+    },
+    {
+      "NAME": "Census Tract 2114.02",
+      "county": "009",
+      "state": "25",
+      "tract": "211402"
+    },
+    {
+      "NAME": "Census Tract 2121",
+      "county": "009",
+      "state": "25",
+      "tract": "212100"
+    },
+    {
+      "NAME": "Census Tract 2131",
+      "county": "009",
+      "state": "25",
+      "tract": "213100"
+    },
+    {
+      "NAME": "Census Tract 2141",
+      "county": "009",
+      "state": "25",
+      "tract": "214100"
+    },
+    {
+      "NAME": "Census Tract 2151.01",
+      "county": "009",
+      "state": "25",
+      "tract": "215101"
+    },
+    {
+      "NAME": "Census Tract 2151.02",
+      "county": "009",
+      "state": "25",
+      "tract": "215102"
+    },
+    {
+      "NAME": "Census Tract 2161",
+      "county": "009",
+      "state": "25",
+      "tract": "216100"
+    },
+    {
+      "NAME": "Census Tract 2171",
+      "county": "009",
+      "state": "25",
+      "tract": "217100"
+    },
+    {
+      "NAME": "Census Tract 2172.01",
+      "county": "009",
+      "state": "25",
+      "tract": "217201"
+    },
+    {
+      "NAME": "Census Tract 2172.02",
+      "county": "009",
+      "state": "25",
+      "tract": "217202"
+    },
+    {
+      "NAME": "Census Tract 2173",
+      "county": "009",
+      "state": "25",
+      "tract": "217300"
+    },
+    {
+      "NAME": "Census Tract 2174",
+      "county": "009",
+      "state": "25",
+      "tract": "217400"
+    },
+    {
+      "NAME": "Census Tract 2175",
+      "county": "009",
+      "state": "25",
+      "tract": "217500"
+    },
+    {
+      "NAME": "Census Tract 2176",
+      "county": "009",
+      "state": "25",
+      "tract": "217600"
+    },
+    {
+      "NAME": "Census Tract 2181",
+      "county": "009",
+      "state": "25",
+      "tract": "218100"
+    },
+    {
+      "NAME": "Census Tract 2201.01",
+      "county": "009",
+      "state": "25",
+      "tract": "220101"
+    },
+    {
+      "NAME": "Census Tract 2201.02",
+      "county": "009",
+      "state": "25",
+      "tract": "220102"
+    },
+    {
+      "NAME": "Census Tract 2211",
+      "county": "009",
+      "state": "25",
+      "tract": "221100"
+    },
+    {
+      "NAME": "Census Tract 2213",
+      "county": "009",
+      "state": "25",
+      "tract": "221300"
+    },
+    {
+      "NAME": "Census Tract 2214",
+      "county": "009",
+      "state": "25",
+      "tract": "221400"
+    },
+    {
+      "NAME": "Census Tract 2215",
+      "county": "009",
+      "state": "25",
+      "tract": "221500"
+    },
+    {
+      "NAME": "Census Tract 2216",
+      "county": "009",
+      "state": "25",
+      "tract": "221600"
+    },
+    {
+      "NAME": "Census Tract 2217",
+      "county": "009",
+      "state": "25",
+      "tract": "221700"
+    },
+    {
+      "NAME": "Census Tract 2218",
+      "county": "009",
+      "state": "25",
+      "tract": "221800"
+    },
+    {
+      "NAME": "Census Tract 2219.01",
+      "county": "009",
+      "state": "25",
+      "tract": "221901"
+    },
+    {
+      "NAME": "Census Tract 2219.02",
+      "county": "009",
+      "state": "25",
+      "tract": "221902"
+    },
+    {
+      "NAME": "Census Tract 2221",
+      "county": "009",
+      "state": "25",
+      "tract": "222100"
+    },
+    {
+      "NAME": "Census Tract 2231",
+      "county": "009",
+      "state": "25",
+      "tract": "223100"
+    },
+    {
+      "NAME": "Census Tract 2232",
+      "county": "009",
+      "state": "25",
+      "tract": "223200"
+    },
+    {
+      "NAME": "Census Tract 2233",
+      "county": "009",
+      "state": "25",
+      "tract": "223300"
+    },
+    {
+      "NAME": "Census Tract 2501",
+      "county": "009",
+      "state": "25",
+      "tract": "250100"
+    },
+    {
+      "NAME": "Census Tract 2502",
+      "county": "009",
+      "state": "25",
+      "tract": "250200"
+    },
+    {
+      "NAME": "Census Tract 2503",
+      "county": "009",
+      "state": "25",
+      "tract": "250300"
+    },
+    {
+      "NAME": "Census Tract 2504",
+      "county": "009",
+      "state": "25",
+      "tract": "250400"
+    },
+    {
+      "NAME": "Census Tract 2505",
+      "county": "009",
+      "state": "25",
+      "tract": "250500"
+    },
+    {
+      "NAME": "Census Tract 2506",
+      "county": "009",
+      "state": "25",
+      "tract": "250600"
+    },
+    {
+      "NAME": "Census Tract 2507",
+      "county": "009",
+      "state": "25",
+      "tract": "250700"
+    },
+    {
+      "NAME": "Census Tract 2508",
+      "county": "009",
+      "state": "25",
+      "tract": "250800"
+    },
+    {
+      "NAME": "Census Tract 2509",
+      "county": "009",
+      "state": "25",
+      "tract": "250900"
+    },
+    {
+      "NAME": "Census Tract 2510",
+      "county": "009",
+      "state": "25",
+      "tract": "251000"
+    },
+    {
+      "NAME": "Census Tract 2511",
+      "county": "009",
+      "state": "25",
+      "tract": "251100"
+    },
+    {
+      "NAME": "Census Tract 2512",
+      "county": "009",
+      "state": "25",
+      "tract": "251200"
+    },
+    {
+      "NAME": "Census Tract 2513",
+      "county": "009",
+      "state": "25",
+      "tract": "251300"
+    },
+    {
+      "NAME": "Census Tract 2514",
+      "county": "009",
+      "state": "25",
+      "tract": "251400"
+    },
+    {
+      "NAME": "Census Tract 2515",
+      "county": "009",
+      "state": "25",
+      "tract": "251500"
+    },
+    {
+      "NAME": "Census Tract 2516",
+      "county": "009",
+      "state": "25",
+      "tract": "251600"
+    },
+    {
+      "NAME": "Census Tract 2517",
+      "county": "009",
+      "state": "25",
+      "tract": "251700"
+    },
+    {
+      "NAME": "Census Tract 2518",
+      "county": "009",
+      "state": "25",
+      "tract": "251800"
+    },
+    {
+      "NAME": "Census Tract 2521.01",
+      "county": "009",
+      "state": "25",
+      "tract": "252101"
+    },
+    {
+      "NAME": "Census Tract 2521.02",
+      "county": "009",
+      "state": "25",
+      "tract": "252102"
+    },
+    {
+      "NAME": "Census Tract 2522.01",
+      "county": "009",
+      "state": "25",
+      "tract": "252201"
+    },
+    {
+      "NAME": "Census Tract 2522.02",
+      "county": "009",
+      "state": "25",
+      "tract": "252202"
+    },
+    {
+      "NAME": "Census Tract 2523",
+      "county": "009",
+      "state": "25",
+      "tract": "252300"
+    },
+    {
+      "NAME": "Census Tract 2524",
+      "county": "009",
+      "state": "25",
+      "tract": "252400"
+    },
+    {
+      "NAME": "Census Tract 2525.01",
+      "county": "009",
+      "state": "25",
+      "tract": "252501"
+    },
+    {
+      "NAME": "Census Tract 2525.02",
+      "county": "009",
+      "state": "25",
+      "tract": "252502"
+    },
+    {
+      "NAME": "Census Tract 2526.01",
+      "county": "009",
+      "state": "25",
+      "tract": "252601"
+    },
+    {
+      "NAME": "Census Tract 2526.02",
+      "county": "009",
+      "state": "25",
+      "tract": "252602"
+    },
+    {
+      "NAME": "Census Tract 2526.03",
+      "county": "009",
+      "state": "25",
+      "tract": "252603"
+    },
+    {
+      "NAME": "Census Tract 2531",
+      "county": "009",
+      "state": "25",
+      "tract": "253100"
+    },
+    {
+      "NAME": "Census Tract 2532.01",
+      "county": "009",
+      "state": "25",
+      "tract": "253201"
+    },
+    {
+      "NAME": "Census Tract 2532.02",
+      "county": "009",
+      "state": "25",
+      "tract": "253202"
+    },
+    {
+      "NAME": "Census Tract 2532.03",
+      "county": "009",
+      "state": "25",
+      "tract": "253203"
+    },
+    {
+      "NAME": "Census Tract 2532.04",
+      "county": "009",
+      "state": "25",
+      "tract": "253204"
+    },
+    {
+      "NAME": "Census Tract 2532.05",
+      "county": "009",
+      "state": "25",
+      "tract": "253205"
+    },
+    {
+      "NAME": "Census Tract 2541",
+      "county": "009",
+      "state": "25",
+      "tract": "254100"
+    },
+    {
+      "NAME": "Census Tract 2542",
+      "county": "009",
+      "state": "25",
+      "tract": "254200"
+    },
+    {
+      "NAME": "Census Tract 2543.01",
+      "county": "009",
+      "state": "25",
+      "tract": "254301"
+    },
+    {
+      "NAME": "Census Tract 2543.02",
+      "county": "009",
+      "state": "25",
+      "tract": "254302"
+    },
+    {
+      "NAME": "Census Tract 2544.01",
+      "county": "009",
+      "state": "25",
+      "tract": "254401"
+    },
+    {
+      "NAME": "Census Tract 2544.02",
+      "county": "009",
+      "state": "25",
+      "tract": "254402"
+    },
+    {
+      "NAME": "Census Tract 2544.03",
+      "county": "009",
+      "state": "25",
+      "tract": "254403"
+    },
+    {
+      "NAME": "Census Tract 2601",
+      "county": "009",
+      "state": "25",
+      "tract": "260100"
+    },
+    {
+      "NAME": "Census Tract 2602",
+      "county": "009",
+      "state": "25",
+      "tract": "260200"
+    },
+    {
+      "NAME": "Census Tract 2603.01",
+      "county": "009",
+      "state": "25",
+      "tract": "260301"
+    },
+    {
+      "NAME": "Census Tract 2603.02",
+      "county": "009",
+      "state": "25",
+      "tract": "260302"
+    },
+    {
+      "NAME": "Census Tract 2604.01",
+      "county": "009",
+      "state": "25",
+      "tract": "260401"
+    },
+    {
+      "NAME": "Census Tract 2604.02",
+      "county": "009",
+      "state": "25",
+      "tract": "260402"
+    },
+    {
+      "NAME": "Census Tract 2605",
+      "county": "009",
+      "state": "25",
+      "tract": "260500"
+    },
+    {
+      "NAME": "Census Tract 2606",
+      "county": "009",
+      "state": "25",
+      "tract": "260600"
+    },
+    {
+      "NAME": "Census Tract 2607",
+      "county": "009",
+      "state": "25",
+      "tract": "260700"
+    },
+    {
+      "NAME": "Census Tract 2608",
+      "county": "009",
+      "state": "25",
+      "tract": "260800"
+    },
+    {
+      "NAME": "Census Tract 2609",
+      "county": "009",
+      "state": "25",
+      "tract": "260900"
+    },
+    {
+      "NAME": "Census Tract 2610",
+      "county": "009",
+      "state": "25",
+      "tract": "261000"
+    },
+    {
+      "NAME": "Census Tract 2611.01",
+      "county": "009",
+      "state": "25",
+      "tract": "261101"
+    },
+    {
+      "NAME": "Census Tract 2611.02",
+      "county": "009",
+      "state": "25",
+      "tract": "261102"
+    },
+    {
+      "NAME": "Census Tract 2621",
+      "county": "009",
+      "state": "25",
+      "tract": "262100"
+    },
+    {
+      "NAME": "Census Tract 2631",
+      "county": "009",
+      "state": "25",
+      "tract": "263100"
+    },
+    {
+      "NAME": "Census Tract 2641",
+      "county": "009",
+      "state": "25",
+      "tract": "264100"
+    },
+    {
+      "NAME": "Census Tract 2651.01",
+      "county": "009",
+      "state": "25",
+      "tract": "265101"
+    },
+    {
+      "NAME": "Census Tract 2651.02",
+      "county": "009",
+      "state": "25",
+      "tract": "265102"
+    },
+    {
+      "NAME": "Census Tract 2661",
+      "county": "009",
+      "state": "25",
+      "tract": "266100"
+    },
+    {
+      "NAME": "Census Tract 2662",
+      "county": "009",
+      "state": "25",
+      "tract": "266200"
+    },
+    {
+      "NAME": "Census Tract 2663",
+      "county": "009",
+      "state": "25",
+      "tract": "266300"
+    },
+    {
+      "NAME": "Census Tract 2664",
+      "county": "009",
+      "state": "25",
+      "tract": "266400"
+    },
+    {
+      "NAME": "Census Tract 2671.01",
+      "county": "009",
+      "state": "25",
+      "tract": "267101"
+    },
+    {
+      "NAME": "Census Tract 2671.02",
+      "county": "009",
+      "state": "25",
+      "tract": "267102"
+    },
+    {
+      "NAME": "Census Tract 2681",
+      "county": "009",
+      "state": "25",
+      "tract": "268100"
+    },
+    {
+      "NAME": "Census Tract 2682",
+      "county": "009",
+      "state": "25",
+      "tract": "268200"
+    },
+    {
+      "NAME": "Census Tract 2683",
+      "county": "009",
+      "state": "25",
+      "tract": "268300"
+    },
+    {
+      "NAME": "Census Tract 2684",
+      "county": "009",
+      "state": "25",
+      "tract": "268400"
+    },
+    {
+      "NAME": "Census Tract 2691",
+      "county": "009",
+      "state": "25",
+      "tract": "269100"
+    },
+    {
+      "NAME": "Census Tract 2701",
+      "county": "009",
+      "state": "25",
+      "tract": "270100"
+    },
+    {
+      "NAME": "Census Tract 9901",
+      "county": "009",
+      "state": "25",
+      "tract": "990100"
+    }
+  ],
+  "middlesex": [
+    {
+      "NAME": "Census Tract 3001",
+      "county": "017",
+      "state": "25",
+      "tract": "300100"
+    },
+    {
+      "NAME": "Census Tract 3011.01",
+      "county": "017",
+      "state": "25",
+      "tract": "301101"
+    },
+    {
+      "NAME": "Census Tract 3011.02",
+      "county": "017",
+      "state": "25",
+      "tract": "301102"
+    },
+    {
+      "NAME": "Census Tract 3101",
+      "county": "017",
+      "state": "25",
+      "tract": "310100"
+    },
+    {
+      "NAME": "Census Tract 3102",
+      "county": "017",
+      "state": "25",
+      "tract": "310200"
+    },
+    {
+      "NAME": "Census Tract 3103",
+      "county": "017",
+      "state": "25",
+      "tract": "310300"
+    },
+    {
+      "NAME": "Census Tract 3104",
+      "county": "017",
+      "state": "25",
+      "tract": "310400"
+    },
+    {
+      "NAME": "Census Tract 3105",
+      "county": "017",
+      "state": "25",
+      "tract": "310500"
+    },
+    {
+      "NAME": "Census Tract 3106.01",
+      "county": "017",
+      "state": "25",
+      "tract": "310601"
+    },
+    {
+      "NAME": "Census Tract 3106.02",
+      "county": "017",
+      "state": "25",
+      "tract": "310602"
+    },
+    {
+      "NAME": "Census Tract 3107",
+      "county": "017",
+      "state": "25",
+      "tract": "310700"
+    },
+    {
+      "NAME": "Census Tract 3111",
+      "county": "017",
+      "state": "25",
+      "tract": "311100"
+    },
+    {
+      "NAME": "Census Tract 3112",
+      "county": "017",
+      "state": "25",
+      "tract": "311200"
+    },
+    {
+      "NAME": "Census Tract 3113",
+      "county": "017",
+      "state": "25",
+      "tract": "311300"
+    },
+    {
+      "NAME": "Census Tract 3114",
+      "county": "017",
+      "state": "25",
+      "tract": "311400"
+    },
+    {
+      "NAME": "Census Tract 3115",
+      "county": "017",
+      "state": "25",
+      "tract": "311500"
+    },
+    {
+      "NAME": "Census Tract 3116",
+      "county": "017",
+      "state": "25",
+      "tract": "311600"
+    },
+    {
+      "NAME": "Census Tract 3117",
+      "county": "017",
+      "state": "25",
+      "tract": "311700"
+    },
+    {
+      "NAME": "Census Tract 3118",
+      "county": "017",
+      "state": "25",
+      "tract": "311800"
+    },
+    {
+      "NAME": "Census Tract 3119",
+      "county": "017",
+      "state": "25",
+      "tract": "311900"
+    },
+    {
+      "NAME": "Census Tract 3120",
+      "county": "017",
+      "state": "25",
+      "tract": "312000"
+    },
+    {
+      "NAME": "Census Tract 3121",
+      "county": "017",
+      "state": "25",
+      "tract": "312100"
+    },
+    {
+      "NAME": "Census Tract 3122",
+      "county": "017",
+      "state": "25",
+      "tract": "312200"
+    },
+    {
+      "NAME": "Census Tract 3123",
+      "county": "017",
+      "state": "25",
+      "tract": "312300"
+    },
+    {
+      "NAME": "Census Tract 3124",
+      "county": "017",
+      "state": "25",
+      "tract": "312400"
+    },
+    {
+      "NAME": "Census Tract 3125.01",
+      "county": "017",
+      "state": "25",
+      "tract": "312501"
+    },
+    {
+      "NAME": "Census Tract 3125.02",
+      "county": "017",
+      "state": "25",
+      "tract": "312502"
+    },
+    {
+      "NAME": "Census Tract 3131.01",
+      "county": "017",
+      "state": "25",
+      "tract": "313101"
+    },
+    {
+      "NAME": "Census Tract 3131.02",
+      "county": "017",
+      "state": "25",
+      "tract": "313102"
+    },
+    {
+      "NAME": "Census Tract 3141.01",
+      "county": "017",
+      "state": "25",
+      "tract": "314101"
+    },
+    {
+      "NAME": "Census Tract 3141.02",
+      "county": "017",
+      "state": "25",
+      "tract": "314102"
+    },
+    {
+      "NAME": "Census Tract 3142",
+      "county": "017",
+      "state": "25",
+      "tract": "314200"
+    },
+    {
+      "NAME": "Census Tract 3143.01",
+      "county": "017",
+      "state": "25",
+      "tract": "314301"
+    },
+    {
+      "NAME": "Census Tract 3143.02",
+      "county": "017",
+      "state": "25",
+      "tract": "314302"
+    },
+    {
+      "NAME": "Census Tract 3151",
+      "county": "017",
+      "state": "25",
+      "tract": "315100"
+    },
+    {
+      "NAME": "Census Tract 3152",
+      "county": "017",
+      "state": "25",
+      "tract": "315200"
+    },
+    {
+      "NAME": "Census Tract 3154.01",
+      "county": "017",
+      "state": "25",
+      "tract": "315401"
+    },
+    {
+      "NAME": "Census Tract 3154.02",
+      "county": "017",
+      "state": "25",
+      "tract": "315402"
+    },
+    {
+      "NAME": "Census Tract 3154.03",
+      "county": "017",
+      "state": "25",
+      "tract": "315403"
+    },
+    {
+      "NAME": "Census Tract 3155",
+      "county": "017",
+      "state": "25",
+      "tract": "315500"
+    },
+    {
+      "NAME": "Census Tract 3161.01",
+      "county": "017",
+      "state": "25",
+      "tract": "316101"
+    },
+    {
+      "NAME": "Census Tract 3161.02",
+      "county": "017",
+      "state": "25",
+      "tract": "316102"
+    },
+    {
+      "NAME": "Census Tract 3162.01",
+      "county": "017",
+      "state": "25",
+      "tract": "316201"
+    },
+    {
+      "NAME": "Census Tract 3162.02",
+      "county": "017",
+      "state": "25",
+      "tract": "316202"
+    },
+    {
+      "NAME": "Census Tract 3163",
+      "county": "017",
+      "state": "25",
+      "tract": "316300"
+    },
+    {
+      "NAME": "Census Tract 3164",
+      "county": "017",
+      "state": "25",
+      "tract": "316400"
+    },
+    {
+      "NAME": "Census Tract 3165",
+      "county": "017",
+      "state": "25",
+      "tract": "316500"
+    },
+    {
+      "NAME": "Census Tract 3171.01",
+      "county": "017",
+      "state": "25",
+      "tract": "317101"
+    },
+    {
+      "NAME": "Census Tract 3171.02",
+      "county": "017",
+      "state": "25",
+      "tract": "317102"
+    },
+    {
+      "NAME": "Census Tract 3171.03",
+      "county": "017",
+      "state": "25",
+      "tract": "317103"
+    },
+    {
+      "NAME": "Census Tract 3172.01",
+      "county": "017",
+      "state": "25",
+      "tract": "317201"
+    },
+    {
+      "NAME": "Census Tract 3172.02",
+      "county": "017",
+      "state": "25",
+      "tract": "317202"
+    },
+    {
+      "NAME": "Census Tract 3172.03",
+      "county": "017",
+      "state": "25",
+      "tract": "317203"
+    },
+    {
+      "NAME": "Census Tract 3173.01",
+      "county": "017",
+      "state": "25",
+      "tract": "317301"
+    },
+    {
+      "NAME": "Census Tract 3173.02",
+      "county": "017",
+      "state": "25",
+      "tract": "317302"
+    },
+    {
+      "NAME": "Census Tract 3181",
+      "county": "017",
+      "state": "25",
+      "tract": "318100"
+    },
+    {
+      "NAME": "Census Tract 3182",
+      "county": "017",
+      "state": "25",
+      "tract": "318200"
+    },
+    {
+      "NAME": "Census Tract 3183",
+      "county": "017",
+      "state": "25",
+      "tract": "318300"
+    },
+    {
+      "NAME": "Census Tract 3184",
+      "county": "017",
+      "state": "25",
+      "tract": "318400"
+    },
+    {
+      "NAME": "Census Tract 3201.02",
+      "county": "017",
+      "state": "25",
+      "tract": "320102"
+    },
+    {
+      "NAME": "Census Tract 3201.03",
+      "county": "017",
+      "state": "25",
+      "tract": "320103"
+    },
+    {
+      "NAME": "Census Tract 3201.04",
+      "county": "017",
+      "state": "25",
+      "tract": "320104"
+    },
+    {
+      "NAME": "Census Tract 3211",
+      "county": "017",
+      "state": "25",
+      "tract": "321100"
+    },
+    {
+      "NAME": "Census Tract 3212",
+      "county": "017",
+      "state": "25",
+      "tract": "321200"
+    },
+    {
+      "NAME": "Census Tract 3213",
+      "county": "017",
+      "state": "25",
+      "tract": "321300"
+    },
+    {
+      "NAME": "Census Tract 3214",
+      "county": "017",
+      "state": "25",
+      "tract": "321400"
+    },
+    {
+      "NAME": "Census Tract 3215",
+      "county": "017",
+      "state": "25",
+      "tract": "321500"
+    },
+    {
+      "NAME": "Census Tract 3216",
+      "county": "017",
+      "state": "25",
+      "tract": "321600"
+    },
+    {
+      "NAME": "Census Tract 3221",
+      "county": "017",
+      "state": "25",
+      "tract": "322100"
+    },
+    {
+      "NAME": "Census Tract 3222",
+      "county": "017",
+      "state": "25",
+      "tract": "322200"
+    },
+    {
+      "NAME": "Census Tract 3223",
+      "county": "017",
+      "state": "25",
+      "tract": "322300"
+    },
+    {
+      "NAME": "Census Tract 3224",
+      "county": "017",
+      "state": "25",
+      "tract": "322400"
+    },
+    {
+      "NAME": "Census Tract 3231",
+      "county": "017",
+      "state": "25",
+      "tract": "323100"
+    },
+    {
+      "NAME": "Census Tract 3241.01",
+      "county": "017",
+      "state": "25",
+      "tract": "324101"
+    },
+    {
+      "NAME": "Census Tract 3241.02",
+      "county": "017",
+      "state": "25",
+      "tract": "324102"
+    },
+    {
+      "NAME": "Census Tract 3251",
+      "county": "017",
+      "state": "25",
+      "tract": "325100"
+    },
+    {
+      "NAME": "Census Tract 3261.01",
+      "county": "017",
+      "state": "25",
+      "tract": "326101"
+    },
+    {
+      "NAME": "Census Tract 3261.02",
+      "county": "017",
+      "state": "25",
+      "tract": "326102"
+    },
+    {
+      "NAME": "Census Tract 3271.01",
+      "county": "017",
+      "state": "25",
+      "tract": "327101"
+    },
+    {
+      "NAME": "Census Tract 3271.02",
+      "county": "017",
+      "state": "25",
+      "tract": "327102"
+    },
+    {
+      "NAME": "Census Tract 3271.03",
+      "county": "017",
+      "state": "25",
+      "tract": "327103"
+    },
+    {
+      "NAME": "Census Tract 3281",
+      "county": "017",
+      "state": "25",
+      "tract": "328100"
+    },
+    {
+      "NAME": "Census Tract 3301",
+      "county": "017",
+      "state": "25",
+      "tract": "330100"
+    },
+    {
+      "NAME": "Census Tract 3302",
+      "county": "017",
+      "state": "25",
+      "tract": "330200"
+    },
+    {
+      "NAME": "Census Tract 3311.01",
+      "county": "017",
+      "state": "25",
+      "tract": "331101"
+    },
+    {
+      "NAME": "Census Tract 3311.02",
+      "county": "017",
+      "state": "25",
+      "tract": "331102"
+    },
+    {
+      "NAME": "Census Tract 3312",
+      "county": "017",
+      "state": "25",
+      "tract": "331200"
+    },
+    {
+      "NAME": "Census Tract 3313",
+      "county": "017",
+      "state": "25",
+      "tract": "331300"
+    },
+    {
+      "NAME": "Census Tract 3321",
+      "county": "017",
+      "state": "25",
+      "tract": "332100"
+    },
+    {
+      "NAME": "Census Tract 3322",
+      "county": "017",
+      "state": "25",
+      "tract": "332200"
+    },
+    {
+      "NAME": "Census Tract 3323",
+      "county": "017",
+      "state": "25",
+      "tract": "332300"
+    },
+    {
+      "NAME": "Census Tract 3324",
+      "county": "017",
+      "state": "25",
+      "tract": "332400"
+    },
+    {
+      "NAME": "Census Tract 3331",
+      "county": "017",
+      "state": "25",
+      "tract": "333100"
+    },
+    {
+      "NAME": "Census Tract 3332",
+      "county": "017",
+      "state": "25",
+      "tract": "333200"
+    },
+    {
+      "NAME": "Census Tract 3333",
+      "county": "017",
+      "state": "25",
+      "tract": "333300"
+    },
+    {
+      "NAME": "Census Tract 3334",
+      "county": "017",
+      "state": "25",
+      "tract": "333400"
+    },
+    {
+      "NAME": "Census Tract 3335.01",
+      "county": "017",
+      "state": "25",
+      "tract": "333501"
+    },
+    {
+      "NAME": "Census Tract 3335.02",
+      "county": "017",
+      "state": "25",
+      "tract": "333502"
+    },
+    {
+      "NAME": "Census Tract 3336",
+      "county": "017",
+      "state": "25",
+      "tract": "333600"
+    },
+    {
+      "NAME": "Census Tract 3341",
+      "county": "017",
+      "state": "25",
+      "tract": "334100"
+    },
+    {
+      "NAME": "Census Tract 3342",
+      "county": "017",
+      "state": "25",
+      "tract": "334200"
+    },
+    {
+      "NAME": "Census Tract 3343",
+      "county": "017",
+      "state": "25",
+      "tract": "334300"
+    },
+    {
+      "NAME": "Census Tract 3344",
+      "county": "017",
+      "state": "25",
+      "tract": "334400"
+    },
+    {
+      "NAME": "Census Tract 3351",
+      "county": "017",
+      "state": "25",
+      "tract": "335100"
+    },
+    {
+      "NAME": "Census Tract 3352",
+      "county": "017",
+      "state": "25",
+      "tract": "335200"
+    },
+    {
+      "NAME": "Census Tract 3353.01",
+      "county": "017",
+      "state": "25",
+      "tract": "335301"
+    },
+    {
+      "NAME": "Census Tract 3353.02",
+      "county": "017",
+      "state": "25",
+      "tract": "335302"
+    },
+    {
+      "NAME": "Census Tract 3354",
+      "county": "017",
+      "state": "25",
+      "tract": "335400"
+    },
+    {
+      "NAME": "Census Tract 3361",
+      "county": "017",
+      "state": "25",
+      "tract": "336100"
+    },
+    {
+      "NAME": "Census Tract 3362",
+      "county": "017",
+      "state": "25",
+      "tract": "336200"
+    },
+    {
+      "NAME": "Census Tract 3363",
+      "county": "017",
+      "state": "25",
+      "tract": "336300"
+    },
+    {
+      "NAME": "Census Tract 3364.01",
+      "county": "017",
+      "state": "25",
+      "tract": "336401"
+    },
+    {
+      "NAME": "Census Tract 3364.02",
+      "county": "017",
+      "state": "25",
+      "tract": "336402"
+    },
+    {
+      "NAME": "Census Tract 3371.01",
+      "county": "017",
+      "state": "25",
+      "tract": "337101"
+    },
+    {
+      "NAME": "Census Tract 3371.02",
+      "county": "017",
+      "state": "25",
+      "tract": "337102"
+    },
+    {
+      "NAME": "Census Tract 3372.01",
+      "county": "017",
+      "state": "25",
+      "tract": "337201"
+    },
+    {
+      "NAME": "Census Tract 3372.02",
+      "county": "017",
+      "state": "25",
+      "tract": "337202"
+    },
+    {
+      "NAME": "Census Tract 3373",
+      "county": "017",
+      "state": "25",
+      "tract": "337300"
+    },
+    {
+      "NAME": "Census Tract 3381",
+      "county": "017",
+      "state": "25",
+      "tract": "338100"
+    },
+    {
+      "NAME": "Census Tract 3382",
+      "county": "017",
+      "state": "25",
+      "tract": "338200"
+    },
+    {
+      "NAME": "Census Tract 3383",
+      "county": "017",
+      "state": "25",
+      "tract": "338300"
+    },
+    {
+      "NAME": "Census Tract 3384",
+      "county": "017",
+      "state": "25",
+      "tract": "338400"
+    },
+    {
+      "NAME": "Census Tract 3385",
+      "county": "017",
+      "state": "25",
+      "tract": "338500"
+    },
+    {
+      "NAME": "Census Tract 3391",
+      "county": "017",
+      "state": "25",
+      "tract": "339100"
+    },
+    {
+      "NAME": "Census Tract 3392",
+      "county": "017",
+      "state": "25",
+      "tract": "339200"
+    },
+    {
+      "NAME": "Census Tract 3393",
+      "county": "017",
+      "state": "25",
+      "tract": "339300"
+    },
+    {
+      "NAME": "Census Tract 3394",
+      "county": "017",
+      "state": "25",
+      "tract": "339400"
+    },
+    {
+      "NAME": "Census Tract 3395",
+      "county": "017",
+      "state": "25",
+      "tract": "339500"
+    },
+    {
+      "NAME": "Census Tract 3396",
+      "county": "017",
+      "state": "25",
+      "tract": "339600"
+    },
+    {
+      "NAME": "Census Tract 3397",
+      "county": "017",
+      "state": "25",
+      "tract": "339700"
+    },
+    {
+      "NAME": "Census Tract 3398.01",
+      "county": "017",
+      "state": "25",
+      "tract": "339801"
+    },
+    {
+      "NAME": "Census Tract 3398.02",
+      "county": "017",
+      "state": "25",
+      "tract": "339802"
+    },
+    {
+      "NAME": "Census Tract 3399",
+      "county": "017",
+      "state": "25",
+      "tract": "339900"
+    },
+    {
+      "NAME": "Census Tract 3400",
+      "county": "017",
+      "state": "25",
+      "tract": "340000"
+    },
+    {
+      "NAME": "Census Tract 3401",
+      "county": "017",
+      "state": "25",
+      "tract": "340100"
+    },
+    {
+      "NAME": "Census Tract 3411.01",
+      "county": "017",
+      "state": "25",
+      "tract": "341101"
+    },
+    {
+      "NAME": "Census Tract 3411.02",
+      "county": "017",
+      "state": "25",
+      "tract": "341102"
+    },
+    {
+      "NAME": "Census Tract 3412",
+      "county": "017",
+      "state": "25",
+      "tract": "341200"
+    },
+    {
+      "NAME": "Census Tract 3413",
+      "county": "017",
+      "state": "25",
+      "tract": "341300"
+    },
+    {
+      "NAME": "Census Tract 3414",
+      "county": "017",
+      "state": "25",
+      "tract": "341400"
+    },
+    {
+      "NAME": "Census Tract 3415",
+      "county": "017",
+      "state": "25",
+      "tract": "341500"
+    },
+    {
+      "NAME": "Census Tract 3416",
+      "county": "017",
+      "state": "25",
+      "tract": "341600"
+    },
+    {
+      "NAME": "Census Tract 3417",
+      "county": "017",
+      "state": "25",
+      "tract": "341700"
+    },
+    {
+      "NAME": "Census Tract 3418",
+      "county": "017",
+      "state": "25",
+      "tract": "341800"
+    },
+    {
+      "NAME": "Census Tract 3419.01",
+      "county": "017",
+      "state": "25",
+      "tract": "341901"
+    },
+    {
+      "NAME": "Census Tract 3419.02",
+      "county": "017",
+      "state": "25",
+      "tract": "341902"
+    },
+    {
+      "NAME": "Census Tract 3421.01",
+      "county": "017",
+      "state": "25",
+      "tract": "342101"
+    },
+    {
+      "NAME": "Census Tract 3421.02",
+      "county": "017",
+      "state": "25",
+      "tract": "342102"
+    },
+    {
+      "NAME": "Census Tract 3422.01",
+      "county": "017",
+      "state": "25",
+      "tract": "342201"
+    },
+    {
+      "NAME": "Census Tract 3422.02",
+      "county": "017",
+      "state": "25",
+      "tract": "342202"
+    },
+    {
+      "NAME": "Census Tract 3423",
+      "county": "017",
+      "state": "25",
+      "tract": "342300"
+    },
+    {
+      "NAME": "Census Tract 3424",
+      "county": "017",
+      "state": "25",
+      "tract": "342400"
+    },
+    {
+      "NAME": "Census Tract 3425",
+      "county": "017",
+      "state": "25",
+      "tract": "342500"
+    },
+    {
+      "NAME": "Census Tract 3426",
+      "county": "017",
+      "state": "25",
+      "tract": "342600"
+    },
+    {
+      "NAME": "Census Tract 3501.03",
+      "county": "017",
+      "state": "25",
+      "tract": "350103"
+    },
+    {
+      "NAME": "Census Tract 3501.04",
+      "county": "017",
+      "state": "25",
+      "tract": "350104"
+    },
+    {
+      "NAME": "Census Tract 3502",
+      "county": "017",
+      "state": "25",
+      "tract": "350200"
+    },
+    {
+      "NAME": "Census Tract 3503",
+      "county": "017",
+      "state": "25",
+      "tract": "350300"
+    },
+    {
+      "NAME": "Census Tract 3504",
+      "county": "017",
+      "state": "25",
+      "tract": "350400"
+    },
+    {
+      "NAME": "Census Tract 3505",
+      "county": "017",
+      "state": "25",
+      "tract": "350500"
+    },
+    {
+      "NAME": "Census Tract 3506",
+      "county": "017",
+      "state": "25",
+      "tract": "350600"
+    },
+    {
+      "NAME": "Census Tract 3507",
+      "county": "017",
+      "state": "25",
+      "tract": "350700"
+    },
+    {
+      "NAME": "Census Tract 3508",
+      "county": "017",
+      "state": "25",
+      "tract": "350800"
+    },
+    {
+      "NAME": "Census Tract 3509",
+      "county": "017",
+      "state": "25",
+      "tract": "350900"
+    },
+    {
+      "NAME": "Census Tract 3510",
+      "county": "017",
+      "state": "25",
+      "tract": "351000"
+    },
+    {
+      "NAME": "Census Tract 3511",
+      "county": "017",
+      "state": "25",
+      "tract": "351100"
+    },
+    {
+      "NAME": "Census Tract 3512.03",
+      "county": "017",
+      "state": "25",
+      "tract": "351203"
+    },
+    {
+      "NAME": "Census Tract 3512.04",
+      "county": "017",
+      "state": "25",
+      "tract": "351204"
+    },
+    {
+      "NAME": "Census Tract 3513",
+      "county": "017",
+      "state": "25",
+      "tract": "351300"
+    },
+    {
+      "NAME": "Census Tract 3514.03",
+      "county": "017",
+      "state": "25",
+      "tract": "351403"
+    },
+    {
+      "NAME": "Census Tract 3514.04",
+      "county": "017",
+      "state": "25",
+      "tract": "351404"
+    },
+    {
+      "NAME": "Census Tract 3515",
+      "county": "017",
+      "state": "25",
+      "tract": "351500"
+    },
+    {
+      "NAME": "Census Tract 3521.01",
+      "county": "017",
+      "state": "25",
+      "tract": "352101"
+    },
+    {
+      "NAME": "Census Tract 3521.02",
+      "county": "017",
+      "state": "25",
+      "tract": "352102"
+    },
+    {
+      "NAME": "Census Tract 3522",
+      "county": "017",
+      "state": "25",
+      "tract": "352200"
+    },
+    {
+      "NAME": "Census Tract 3523",
+      "county": "017",
+      "state": "25",
+      "tract": "352300"
+    },
+    {
+      "NAME": "Census Tract 3524",
+      "county": "017",
+      "state": "25",
+      "tract": "352400"
+    },
+    {
+      "NAME": "Census Tract 3525",
+      "county": "017",
+      "state": "25",
+      "tract": "352500"
+    },
+    {
+      "NAME": "Census Tract 3526",
+      "county": "017",
+      "state": "25",
+      "tract": "352600"
+    },
+    {
+      "NAME": "Census Tract 3527",
+      "county": "017",
+      "state": "25",
+      "tract": "352700"
+    },
+    {
+      "NAME": "Census Tract 3528",
+      "county": "017",
+      "state": "25",
+      "tract": "352800"
+    },
+    {
+      "NAME": "Census Tract 3529",
+      "county": "017",
+      "state": "25",
+      "tract": "352900"
+    },
+    {
+      "NAME": "Census Tract 3530",
+      "county": "017",
+      "state": "25",
+      "tract": "353000"
+    },
+    {
+      "NAME": "Census Tract 3531.01",
+      "county": "017",
+      "state": "25",
+      "tract": "353101"
+    },
+    {
+      "NAME": "Census Tract 3531.02",
+      "county": "017",
+      "state": "25",
+      "tract": "353102"
+    },
+    {
+      "NAME": "Census Tract 3532",
+      "county": "017",
+      "state": "25",
+      "tract": "353200"
+    },
+    {
+      "NAME": "Census Tract 3533",
+      "county": "017",
+      "state": "25",
+      "tract": "353300"
+    },
+    {
+      "NAME": "Census Tract 3534",
+      "county": "017",
+      "state": "25",
+      "tract": "353400"
+    },
+    {
+      "NAME": "Census Tract 3535",
+      "county": "017",
+      "state": "25",
+      "tract": "353500"
+    },
+    {
+      "NAME": "Census Tract 3536",
+      "county": "017",
+      "state": "25",
+      "tract": "353600"
+    },
+    {
+      "NAME": "Census Tract 3537",
+      "county": "017",
+      "state": "25",
+      "tract": "353700"
+    },
+    {
+      "NAME": "Census Tract 3538",
+      "county": "017",
+      "state": "25",
+      "tract": "353800"
+    },
+    {
+      "NAME": "Census Tract 3539",
+      "county": "017",
+      "state": "25",
+      "tract": "353900"
+    },
+    {
+      "NAME": "Census Tract 3540",
+      "county": "017",
+      "state": "25",
+      "tract": "354000"
+    },
+    {
+      "NAME": "Census Tract 3541",
+      "county": "017",
+      "state": "25",
+      "tract": "354100"
+    },
+    {
+      "NAME": "Census Tract 3542",
+      "county": "017",
+      "state": "25",
+      "tract": "354200"
+    },
+    {
+      "NAME": "Census Tract 3543",
+      "county": "017",
+      "state": "25",
+      "tract": "354300"
+    },
+    {
+      "NAME": "Census Tract 3544",
+      "county": "017",
+      "state": "25",
+      "tract": "354400"
+    },
+    {
+      "NAME": "Census Tract 3545",
+      "county": "017",
+      "state": "25",
+      "tract": "354500"
+    },
+    {
+      "NAME": "Census Tract 3546",
+      "county": "017",
+      "state": "25",
+      "tract": "354600"
+    },
+    {
+      "NAME": "Census Tract 3547",
+      "county": "017",
+      "state": "25",
+      "tract": "354700"
+    },
+    {
+      "NAME": "Census Tract 3548",
+      "county": "017",
+      "state": "25",
+      "tract": "354800"
+    },
+    {
+      "NAME": "Census Tract 3549",
+      "county": "017",
+      "state": "25",
+      "tract": "354900"
+    },
+    {
+      "NAME": "Census Tract 3550",
+      "county": "017",
+      "state": "25",
+      "tract": "355000"
+    },
+    {
+      "NAME": "Census Tract 3561",
+      "county": "017",
+      "state": "25",
+      "tract": "356100"
+    },
+    {
+      "NAME": "Census Tract 3563",
+      "county": "017",
+      "state": "25",
+      "tract": "356300"
+    },
+    {
+      "NAME": "Census Tract 3564",
+      "county": "017",
+      "state": "25",
+      "tract": "356400"
+    },
+    {
+      "NAME": "Census Tract 3565",
+      "county": "017",
+      "state": "25",
+      "tract": "356500"
+    },
+    {
+      "NAME": "Census Tract 3566.01",
+      "county": "017",
+      "state": "25",
+      "tract": "356601"
+    },
+    {
+      "NAME": "Census Tract 3566.02",
+      "county": "017",
+      "state": "25",
+      "tract": "356602"
+    },
+    {
+      "NAME": "Census Tract 3567.01",
+      "county": "017",
+      "state": "25",
+      "tract": "356701"
+    },
+    {
+      "NAME": "Census Tract 3567.02",
+      "county": "017",
+      "state": "25",
+      "tract": "356702"
+    },
+    {
+      "NAME": "Census Tract 3571",
+      "county": "017",
+      "state": "25",
+      "tract": "357100"
+    },
+    {
+      "NAME": "Census Tract 3572",
+      "county": "017",
+      "state": "25",
+      "tract": "357200"
+    },
+    {
+      "NAME": "Census Tract 3573",
+      "county": "017",
+      "state": "25",
+      "tract": "357300"
+    },
+    {
+      "NAME": "Census Tract 3574",
+      "county": "017",
+      "state": "25",
+      "tract": "357400"
+    },
+    {
+      "NAME": "Census Tract 3575",
+      "county": "017",
+      "state": "25",
+      "tract": "357500"
+    },
+    {
+      "NAME": "Census Tract 3576",
+      "county": "017",
+      "state": "25",
+      "tract": "357600"
+    },
+    {
+      "NAME": "Census Tract 3577",
+      "county": "017",
+      "state": "25",
+      "tract": "357700"
+    },
+    {
+      "NAME": "Census Tract 3578",
+      "county": "017",
+      "state": "25",
+      "tract": "357800"
+    },
+    {
+      "NAME": "Census Tract 3581",
+      "county": "017",
+      "state": "25",
+      "tract": "358100"
+    },
+    {
+      "NAME": "Census Tract 3583",
+      "county": "017",
+      "state": "25",
+      "tract": "358300"
+    },
+    {
+      "NAME": "Census Tract 3584",
+      "county": "017",
+      "state": "25",
+      "tract": "358400"
+    },
+    {
+      "NAME": "Census Tract 3585",
+      "county": "017",
+      "state": "25",
+      "tract": "358500"
+    },
+    {
+      "NAME": "Census Tract 3586",
+      "county": "017",
+      "state": "25",
+      "tract": "358600"
+    },
+    {
+      "NAME": "Census Tract 3587",
+      "county": "017",
+      "state": "25",
+      "tract": "358700"
+    },
+    {
+      "NAME": "Census Tract 3591",
+      "county": "017",
+      "state": "25",
+      "tract": "359100"
+    },
+    {
+      "NAME": "Census Tract 3593",
+      "county": "017",
+      "state": "25",
+      "tract": "359300"
+    },
+    {
+      "NAME": "Census Tract 3601",
+      "county": "017",
+      "state": "25",
+      "tract": "360100"
+    },
+    {
+      "NAME": "Census Tract 3602",
+      "county": "017",
+      "state": "25",
+      "tract": "360200"
+    },
+    {
+      "NAME": "Census Tract 3611",
+      "county": "017",
+      "state": "25",
+      "tract": "361100"
+    },
+    {
+      "NAME": "Census Tract 3612",
+      "county": "017",
+      "state": "25",
+      "tract": "361200"
+    },
+    {
+      "NAME": "Census Tract 3613",
+      "county": "017",
+      "state": "25",
+      "tract": "361300"
+    },
+    {
+      "NAME": "Census Tract 3621",
+      "county": "017",
+      "state": "25",
+      "tract": "362100"
+    },
+    {
+      "NAME": "Census Tract 3631.02",
+      "county": "017",
+      "state": "25",
+      "tract": "363102"
+    },
+    {
+      "NAME": "Census Tract 3631.03",
+      "county": "017",
+      "state": "25",
+      "tract": "363103"
+    },
+    {
+      "NAME": "Census Tract 3631.04",
+      "county": "017",
+      "state": "25",
+      "tract": "363104"
+    },
+    {
+      "NAME": "Census Tract 3632.01",
+      "county": "017",
+      "state": "25",
+      "tract": "363201"
+    },
+    {
+      "NAME": "Census Tract 3632.02",
+      "county": "017",
+      "state": "25",
+      "tract": "363202"
+    },
+    {
+      "NAME": "Census Tract 3641.01",
+      "county": "017",
+      "state": "25",
+      "tract": "364101"
+    },
+    {
+      "NAME": "Census Tract 3641.02",
+      "county": "017",
+      "state": "25",
+      "tract": "364102"
+    },
+    {
+      "NAME": "Census Tract 3651",
+      "county": "017",
+      "state": "25",
+      "tract": "365100"
+    },
+    {
+      "NAME": "Census Tract 3652.01",
+      "county": "017",
+      "state": "25",
+      "tract": "365201"
+    },
+    {
+      "NAME": "Census Tract 3652.02",
+      "county": "017",
+      "state": "25",
+      "tract": "365202"
+    },
+    {
+      "NAME": "Census Tract 3661",
+      "county": "017",
+      "state": "25",
+      "tract": "366100"
+    },
+    {
+      "NAME": "Census Tract 3662.01",
+      "county": "017",
+      "state": "25",
+      "tract": "366201"
+    },
+    {
+      "NAME": "Census Tract 3662.02",
+      "county": "017",
+      "state": "25",
+      "tract": "366202"
+    },
+    {
+      "NAME": "Census Tract 3671",
+      "county": "017",
+      "state": "25",
+      "tract": "367100"
+    },
+    {
+      "NAME": "Census Tract 3672",
+      "county": "017",
+      "state": "25",
+      "tract": "367200"
+    },
+    {
+      "NAME": "Census Tract 3681.01",
+      "county": "017",
+      "state": "25",
+      "tract": "368101"
+    },
+    {
+      "NAME": "Census Tract 3681.02",
+      "county": "017",
+      "state": "25",
+      "tract": "368102"
+    },
+    {
+      "NAME": "Census Tract 3682",
+      "county": "017",
+      "state": "25",
+      "tract": "368200"
+    },
+    {
+      "NAME": "Census Tract 3683",
+      "county": "017",
+      "state": "25",
+      "tract": "368300"
+    },
+    {
+      "NAME": "Census Tract 3684",
+      "county": "017",
+      "state": "25",
+      "tract": "368400"
+    },
+    {
+      "NAME": "Census Tract 3685",
+      "county": "017",
+      "state": "25",
+      "tract": "368500"
+    },
+    {
+      "NAME": "Census Tract 3686",
+      "county": "017",
+      "state": "25",
+      "tract": "368600"
+    },
+    {
+      "NAME": "Census Tract 3687",
+      "county": "017",
+      "state": "25",
+      "tract": "368700"
+    },
+    {
+      "NAME": "Census Tract 3688",
+      "county": "017",
+      "state": "25",
+      "tract": "368800"
+    },
+    {
+      "NAME": "Census Tract 3689.01",
+      "county": "017",
+      "state": "25",
+      "tract": "368901"
+    },
+    {
+      "NAME": "Census Tract 3689.02",
+      "county": "017",
+      "state": "25",
+      "tract": "368902"
+    },
+    {
+      "NAME": "Census Tract 3690",
+      "county": "017",
+      "state": "25",
+      "tract": "369000"
+    },
+    {
+      "NAME": "Census Tract 3691",
+      "county": "017",
+      "state": "25",
+      "tract": "369100"
+    },
+    {
+      "NAME": "Census Tract 3701.01",
+      "county": "017",
+      "state": "25",
+      "tract": "370101"
+    },
+    {
+      "NAME": "Census Tract 3701.02",
+      "county": "017",
+      "state": "25",
+      "tract": "370102"
+    },
+    {
+      "NAME": "Census Tract 3702.01",
+      "county": "017",
+      "state": "25",
+      "tract": "370201"
+    },
+    {
+      "NAME": "Census Tract 3702.02",
+      "county": "017",
+      "state": "25",
+      "tract": "370202"
+    },
+    {
+      "NAME": "Census Tract 3703",
+      "county": "017",
+      "state": "25",
+      "tract": "370300"
+    },
+    {
+      "NAME": "Census Tract 3704",
+      "county": "017",
+      "state": "25",
+      "tract": "370400"
+    },
+    {
+      "NAME": "Census Tract 3731",
+      "county": "017",
+      "state": "25",
+      "tract": "373100"
+    },
+    {
+      "NAME": "Census Tract 3732",
+      "county": "017",
+      "state": "25",
+      "tract": "373200"
+    },
+    {
+      "NAME": "Census Tract 3733",
+      "county": "017",
+      "state": "25",
+      "tract": "373300"
+    },
+    {
+      "NAME": "Census Tract 3734",
+      "county": "017",
+      "state": "25",
+      "tract": "373400"
+    },
+    {
+      "NAME": "Census Tract 3735",
+      "county": "017",
+      "state": "25",
+      "tract": "373500"
+    },
+    {
+      "NAME": "Census Tract 3736",
+      "county": "017",
+      "state": "25",
+      "tract": "373600"
+    },
+    {
+      "NAME": "Census Tract 3737",
+      "county": "017",
+      "state": "25",
+      "tract": "373700"
+    },
+    {
+      "NAME": "Census Tract 3738",
+      "county": "017",
+      "state": "25",
+      "tract": "373800"
+    },
+    {
+      "NAME": "Census Tract 3739",
+      "county": "017",
+      "state": "25",
+      "tract": "373900"
+    },
+    {
+      "NAME": "Census Tract 3740",
+      "county": "017",
+      "state": "25",
+      "tract": "374000"
+    },
+    {
+      "NAME": "Census Tract 3741",
+      "county": "017",
+      "state": "25",
+      "tract": "374100"
+    },
+    {
+      "NAME": "Census Tract 3742",
+      "county": "017",
+      "state": "25",
+      "tract": "374200"
+    },
+    {
+      "NAME": "Census Tract 3743",
+      "county": "017",
+      "state": "25",
+      "tract": "374300"
+    },
+    {
+      "NAME": "Census Tract 3744",
+      "county": "017",
+      "state": "25",
+      "tract": "374400"
+    },
+    {
+      "NAME": "Census Tract 3745",
+      "county": "017",
+      "state": "25",
+      "tract": "374500"
+    },
+    {
+      "NAME": "Census Tract 3746",
+      "county": "017",
+      "state": "25",
+      "tract": "374600"
+    },
+    {
+      "NAME": "Census Tract 3747",
+      "county": "017",
+      "state": "25",
+      "tract": "374700"
+    },
+    {
+      "NAME": "Census Tract 3748",
+      "county": "017",
+      "state": "25",
+      "tract": "374800"
+    },
+    {
+      "NAME": "Census Tract 3821",
+      "county": "017",
+      "state": "25",
+      "tract": "382100"
+    },
+    {
+      "NAME": "Census Tract 3822",
+      "county": "017",
+      "state": "25",
+      "tract": "382200"
+    },
+    {
+      "NAME": "Census Tract 3823",
+      "county": "017",
+      "state": "25",
+      "tract": "382300"
+    },
+    {
+      "NAME": "Census Tract 3824",
+      "county": "017",
+      "state": "25",
+      "tract": "382400"
+    },
+    {
+      "NAME": "Census Tract 3825",
+      "county": "017",
+      "state": "25",
+      "tract": "382500"
+    },
+    {
+      "NAME": "Census Tract 3826.01",
+      "county": "017",
+      "state": "25",
+      "tract": "382601"
+    },
+    {
+      "NAME": "Census Tract 3826.02",
+      "county": "017",
+      "state": "25",
+      "tract": "382602"
+    },
+    {
+      "NAME": "Census Tract 3831.01",
+      "county": "017",
+      "state": "25",
+      "tract": "383101"
+    },
+    {
+      "NAME": "Census Tract 3831.02",
+      "county": "017",
+      "state": "25",
+      "tract": "383102"
+    },
+    {
+      "NAME": "Census Tract 3832",
+      "county": "017",
+      "state": "25",
+      "tract": "383200"
+    },
+    {
+      "NAME": "Census Tract 3833",
+      "county": "017",
+      "state": "25",
+      "tract": "383300"
+    },
+    {
+      "NAME": "Census Tract 3834",
+      "county": "017",
+      "state": "25",
+      "tract": "383400"
+    },
+    {
+      "NAME": "Census Tract 3835.01",
+      "county": "017",
+      "state": "25",
+      "tract": "383501"
+    },
+    {
+      "NAME": "Census Tract 3835.02",
+      "county": "017",
+      "state": "25",
+      "tract": "383502"
+    },
+    {
+      "NAME": "Census Tract 3836",
+      "county": "017",
+      "state": "25",
+      "tract": "383600"
+    },
+    {
+      "NAME": "Census Tract 3837",
+      "county": "017",
+      "state": "25",
+      "tract": "383700"
+    },
+    {
+      "NAME": "Census Tract 3838",
+      "county": "017",
+      "state": "25",
+      "tract": "383800"
+    },
+    {
+      "NAME": "Census Tract 3839.01",
+      "county": "017",
+      "state": "25",
+      "tract": "383901"
+    },
+    {
+      "NAME": "Census Tract 3839.02",
+      "county": "017",
+      "state": "25",
+      "tract": "383902"
+    },
+    {
+      "NAME": "Census Tract 3840.01",
+      "county": "017",
+      "state": "25",
+      "tract": "384001"
+    },
+    {
+      "NAME": "Census Tract 3840.02",
+      "county": "017",
+      "state": "25",
+      "tract": "384002"
+    },
+    {
+      "NAME": "Census Tract 3851",
+      "county": "017",
+      "state": "25",
+      "tract": "385100"
+    },
+    {
+      "NAME": "Census Tract 3852.01",
+      "county": "017",
+      "state": "25",
+      "tract": "385201"
+    },
+    {
+      "NAME": "Census Tract 3852.02",
+      "county": "017",
+      "state": "25",
+      "tract": "385202"
+    },
+    {
+      "NAME": "Census Tract 3861",
+      "county": "017",
+      "state": "25",
+      "tract": "386100"
+    },
+    {
+      "NAME": "Census Tract 3871",
+      "county": "017",
+      "state": "25",
+      "tract": "387100"
+    },
+    {
+      "NAME": "Census Tract 3872.01",
+      "county": "017",
+      "state": "25",
+      "tract": "387201"
+    },
+    {
+      "NAME": "Census Tract 3872.02",
+      "county": "017",
+      "state": "25",
+      "tract": "387202"
+    },
+    {
+      "NAME": "Census Tract 3881",
+      "county": "017",
+      "state": "25",
+      "tract": "388100"
+    },
+    {
+      "NAME": "Census Tract 3882",
+      "county": "017",
+      "state": "25",
+      "tract": "388200"
+    },
+    {
+      "NAME": "Census Tract 3883",
+      "county": "017",
+      "state": "25",
+      "tract": "388300"
+    },
+    {
+      "NAME": "Census Tract 9800",
+      "county": "017",
+      "state": "25",
+      "tract": "980000"
+    }
+  ],
+  "suffolk": [
+    {
+      "NAME": "Census Tract 1",
+      "county": "025",
+      "state": "25",
+      "tract": "000100"
+    },
+    {
+      "NAME": "Census Tract 2.01",
+      "county": "025",
+      "state": "25",
+      "tract": "000201"
+    },
+    {
+      "NAME": "Census Tract 2.02",
+      "county": "025",
+      "state": "25",
+      "tract": "000202"
+    },
+    {
+      "NAME": "Census Tract 3.01",
+      "county": "025",
+      "state": "25",
+      "tract": "000301"
+    },
+    {
+      "NAME": "Census Tract 3.02",
+      "county": "025",
+      "state": "25",
+      "tract": "000302"
+    },
+    {
+      "NAME": "Census Tract 4.01",
+      "county": "025",
+      "state": "25",
+      "tract": "000401"
+    },
+    {
+      "NAME": "Census Tract 4.02",
+      "county": "025",
+      "state": "25",
+      "tract": "000402"
+    },
+    {
+      "NAME": "Census Tract 5.02",
+      "county": "025",
+      "state": "25",
+      "tract": "000502"
+    },
+    {
+      "NAME": "Census Tract 5.03",
+      "county": "025",
+      "state": "25",
+      "tract": "000503"
+    },
+    {
+      "NAME": "Census Tract 5.04",
+      "county": "025",
+      "state": "25",
+      "tract": "000504"
+    },
+    {
+      "NAME": "Census Tract 6.01",
+      "county": "025",
+      "state": "25",
+      "tract": "000601"
+    },
+    {
+      "NAME": "Census Tract 6.02",
+      "county": "025",
+      "state": "25",
+      "tract": "000602"
+    },
+    {
+      "NAME": "Census Tract 7.01",
+      "county": "025",
+      "state": "25",
+      "tract": "000701"
+    },
+    {
+      "NAME": "Census Tract 7.03",
+      "county": "025",
+      "state": "25",
+      "tract": "000703"
+    },
+    {
+      "NAME": "Census Tract 7.04",
+      "county": "025",
+      "state": "25",
+      "tract": "000704"
+    },
+    {
+      "NAME": "Census Tract 8.02",
+      "county": "025",
+      "state": "25",
+      "tract": "000802"
+    },
+    {
+      "NAME": "Census Tract 8.03",
+      "county": "025",
+      "state": "25",
+      "tract": "000803"
+    },
+    {
+      "NAME": "Census Tract 101.03",
+      "county": "025",
+      "state": "25",
+      "tract": "010103"
+    },
+    {
+      "NAME": "Census Tract 101.04",
+      "county": "025",
+      "state": "25",
+      "tract": "010104"
+    },
+    {
+      "NAME": "Census Tract 102.03",
+      "county": "025",
+      "state": "25",
+      "tract": "010203"
+    },
+    {
+      "NAME": "Census Tract 102.04",
+      "county": "025",
+      "state": "25",
+      "tract": "010204"
+    },
+    {
+      "NAME": "Census Tract 103",
+      "county": "025",
+      "state": "25",
+      "tract": "010300"
+    },
+    {
+      "NAME": "Census Tract 104.03",
+      "county": "025",
+      "state": "25",
+      "tract": "010403"
+    },
+    {
+      "NAME": "Census Tract 104.04",
+      "county": "025",
+      "state": "25",
+      "tract": "010404"
+    },
+    {
+      "NAME": "Census Tract 104.05",
+      "county": "025",
+      "state": "25",
+      "tract": "010405"
+    },
+    {
+      "NAME": "Census Tract 104.08",
+      "county": "025",
+      "state": "25",
+      "tract": "010408"
+    },
+    {
+      "NAME": "Census Tract 105",
+      "county": "025",
+      "state": "25",
+      "tract": "010500"
+    },
+    {
+      "NAME": "Census Tract 106",
+      "county": "025",
+      "state": "25",
+      "tract": "010600"
+    },
+    {
+      "NAME": "Census Tract 107.01",
+      "county": "025",
+      "state": "25",
+      "tract": "010701"
+    },
+    {
+      "NAME": "Census Tract 107.02",
+      "county": "025",
+      "state": "25",
+      "tract": "010702"
+    },
+    {
+      "NAME": "Census Tract 108.01",
+      "county": "025",
+      "state": "25",
+      "tract": "010801"
+    },
+    {
+      "NAME": "Census Tract 108.02",
+      "county": "025",
+      "state": "25",
+      "tract": "010802"
+    },
+    {
+      "NAME": "Census Tract 201.01",
+      "county": "025",
+      "state": "25",
+      "tract": "020101"
+    },
+    {
+      "NAME": "Census Tract 202",
+      "county": "025",
+      "state": "25",
+      "tract": "020200"
+    },
+    {
+      "NAME": "Census Tract 203.01",
+      "county": "025",
+      "state": "25",
+      "tract": "020301"
+    },
+    {
+      "NAME": "Census Tract 203.02",
+      "county": "025",
+      "state": "25",
+      "tract": "020302"
+    },
+    {
+      "NAME": "Census Tract 203.03",
+      "county": "025",
+      "state": "25",
+      "tract": "020303"
+    },
+    {
+      "NAME": "Census Tract 301",
+      "county": "025",
+      "state": "25",
+      "tract": "030100"
+    },
+    {
+      "NAME": "Census Tract 302",
+      "county": "025",
+      "state": "25",
+      "tract": "030200"
+    },
+    {
+      "NAME": "Census Tract 303",
+      "county": "025",
+      "state": "25",
+      "tract": "030300"
+    },
+    {
+      "NAME": "Census Tract 304",
+      "county": "025",
+      "state": "25",
+      "tract": "030400"
+    },
+    {
+      "NAME": "Census Tract 305",
+      "county": "025",
+      "state": "25",
+      "tract": "030500"
+    },
+    {
+      "NAME": "Census Tract 401",
+      "county": "025",
+      "state": "25",
+      "tract": "040100"
+    },
+    {
+      "NAME": "Census Tract 402",
+      "county": "025",
+      "state": "25",
+      "tract": "040200"
+    },
+    {
+      "NAME": "Census Tract 403",
+      "county": "025",
+      "state": "25",
+      "tract": "040300"
+    },
+    {
+      "NAME": "Census Tract 404.01",
+      "county": "025",
+      "state": "25",
+      "tract": "040401"
+    },
+    {
+      "NAME": "Census Tract 406",
+      "county": "025",
+      "state": "25",
+      "tract": "040600"
+    },
+    {
+      "NAME": "Census Tract 408.01",
+      "county": "025",
+      "state": "25",
+      "tract": "040801"
+    },
+    {
+      "NAME": "Census Tract 501.01",
+      "county": "025",
+      "state": "25",
+      "tract": "050101"
+    },
+    {
+      "NAME": "Census Tract 502",
+      "county": "025",
+      "state": "25",
+      "tract": "050200"
+    },
+    {
+      "NAME": "Census Tract 503",
+      "county": "025",
+      "state": "25",
+      "tract": "050300"
+    },
+    {
+      "NAME": "Census Tract 504",
+      "county": "025",
+      "state": "25",
+      "tract": "050400"
+    },
+    {
+      "NAME": "Census Tract 505",
+      "county": "025",
+      "state": "25",
+      "tract": "050500"
+    },
+    {
+      "NAME": "Census Tract 506",
+      "county": "025",
+      "state": "25",
+      "tract": "050600"
+    },
+    {
+      "NAME": "Census Tract 507",
+      "county": "025",
+      "state": "25",
+      "tract": "050700"
+    },
+    {
+      "NAME": "Census Tract 509.01",
+      "county": "025",
+      "state": "25",
+      "tract": "050901"
+    },
+    {
+      "NAME": "Census Tract 510",
+      "county": "025",
+      "state": "25",
+      "tract": "051000"
+    },
+    {
+      "NAME": "Census Tract 511.01",
+      "county": "025",
+      "state": "25",
+      "tract": "051101"
+    },
+    {
+      "NAME": "Census Tract 512",
+      "county": "025",
+      "state": "25",
+      "tract": "051200"
+    },
+    {
+      "NAME": "Census Tract 601.01",
+      "county": "025",
+      "state": "25",
+      "tract": "060101"
+    },
+    {
+      "NAME": "Census Tract 602",
+      "county": "025",
+      "state": "25",
+      "tract": "060200"
+    },
+    {
+      "NAME": "Census Tract 603.01",
+      "county": "025",
+      "state": "25",
+      "tract": "060301"
+    },
+    {
+      "NAME": "Census Tract 604",
+      "county": "025",
+      "state": "25",
+      "tract": "060400"
+    },
+    {
+      "NAME": "Census Tract 605.01",
+      "county": "025",
+      "state": "25",
+      "tract": "060501"
+    },
+    {
+      "NAME": "Census Tract 606",
+      "county": "025",
+      "state": "25",
+      "tract": "060600"
+    },
+    {
+      "NAME": "Census Tract 607",
+      "county": "025",
+      "state": "25",
+      "tract": "060700"
+    },
+    {
+      "NAME": "Census Tract 608",
+      "county": "025",
+      "state": "25",
+      "tract": "060800"
+    },
+    {
+      "NAME": "Census Tract 610",
+      "county": "025",
+      "state": "25",
+      "tract": "061000"
+    },
+    {
+      "NAME": "Census Tract 611.01",
+      "county": "025",
+      "state": "25",
+      "tract": "061101"
+    },
+    {
+      "NAME": "Census Tract 612",
+      "county": "025",
+      "state": "25",
+      "tract": "061200"
+    },
+    {
+      "NAME": "Census Tract 701.01",
+      "county": "025",
+      "state": "25",
+      "tract": "070101"
+    },
+    {
+      "NAME": "Census Tract 702",
+      "county": "025",
+      "state": "25",
+      "tract": "070200"
+    },
+    {
+      "NAME": "Census Tract 703",
+      "county": "025",
+      "state": "25",
+      "tract": "070300"
+    },
+    {
+      "NAME": "Census Tract 704.02",
+      "county": "025",
+      "state": "25",
+      "tract": "070402"
+    },
+    {
+      "NAME": "Census Tract 705",
+      "county": "025",
+      "state": "25",
+      "tract": "070500"
+    },
+    {
+      "NAME": "Census Tract 706",
+      "county": "025",
+      "state": "25",
+      "tract": "070600"
+    },
+    {
+      "NAME": "Census Tract 707",
+      "county": "025",
+      "state": "25",
+      "tract": "070700"
+    },
+    {
+      "NAME": "Census Tract 708",
+      "county": "025",
+      "state": "25",
+      "tract": "070800"
+    },
+    {
+      "NAME": "Census Tract 709",
+      "county": "025",
+      "state": "25",
+      "tract": "070900"
+    },
+    {
+      "NAME": "Census Tract 711.01",
+      "county": "025",
+      "state": "25",
+      "tract": "071101"
+    },
+    {
+      "NAME": "Census Tract 712.01",
+      "county": "025",
+      "state": "25",
+      "tract": "071201"
+    },
+    {
+      "NAME": "Census Tract 801",
+      "county": "025",
+      "state": "25",
+      "tract": "080100"
+    },
+    {
+      "NAME": "Census Tract 803",
+      "county": "025",
+      "state": "25",
+      "tract": "080300"
+    },
+    {
+      "NAME": "Census Tract 804.01",
+      "county": "025",
+      "state": "25",
+      "tract": "080401"
+    },
+    {
+      "NAME": "Census Tract 805",
+      "county": "025",
+      "state": "25",
+      "tract": "080500"
+    },
+    {
+      "NAME": "Census Tract 806.01",
+      "county": "025",
+      "state": "25",
+      "tract": "080601"
+    },
+    {
+      "NAME": "Census Tract 808.01",
+      "county": "025",
+      "state": "25",
+      "tract": "080801"
+    },
+    {
+      "NAME": "Census Tract 809",
+      "county": "025",
+      "state": "25",
+      "tract": "080900"
+    },
+    {
+      "NAME": "Census Tract 810.01",
+      "county": "025",
+      "state": "25",
+      "tract": "081001"
+    },
+    {
+      "NAME": "Census Tract 811",
+      "county": "025",
+      "state": "25",
+      "tract": "081100"
+    },
+    {
+      "NAME": "Census Tract 812",
+      "county": "025",
+      "state": "25",
+      "tract": "081200"
+    },
+    {
+      "NAME": "Census Tract 813",
+      "county": "025",
+      "state": "25",
+      "tract": "081300"
+    },
+    {
+      "NAME": "Census Tract 814",
+      "county": "025",
+      "state": "25",
+      "tract": "081400"
+    },
+    {
+      "NAME": "Census Tract 815",
+      "county": "025",
+      "state": "25",
+      "tract": "081500"
+    },
+    {
+      "NAME": "Census Tract 817",
+      "county": "025",
+      "state": "25",
+      "tract": "081700"
+    },
+    {
+      "NAME": "Census Tract 818",
+      "county": "025",
+      "state": "25",
+      "tract": "081800"
+    },
+    {
+      "NAME": "Census Tract 819",
+      "county": "025",
+      "state": "25",
+      "tract": "081900"
+    },
+    {
+      "NAME": "Census Tract 820",
+      "county": "025",
+      "state": "25",
+      "tract": "082000"
+    },
+    {
+      "NAME": "Census Tract 821",
+      "county": "025",
+      "state": "25",
+      "tract": "082100"
+    },
+    {
+      "NAME": "Census Tract 901",
+      "county": "025",
+      "state": "25",
+      "tract": "090100"
+    },
+    {
+      "NAME": "Census Tract 902",
+      "county": "025",
+      "state": "25",
+      "tract": "090200"
+    },
+    {
+      "NAME": "Census Tract 903",
+      "county": "025",
+      "state": "25",
+      "tract": "090300"
+    },
+    {
+      "NAME": "Census Tract 904",
+      "county": "025",
+      "state": "25",
+      "tract": "090400"
+    },
+    {
+      "NAME": "Census Tract 906",
+      "county": "025",
+      "state": "25",
+      "tract": "090600"
+    },
+    {
+      "NAME": "Census Tract 907",
+      "county": "025",
+      "state": "25",
+      "tract": "090700"
+    },
+    {
+      "NAME": "Census Tract 909.01",
+      "county": "025",
+      "state": "25",
+      "tract": "090901"
+    },
+    {
+      "NAME": "Census Tract 910.01",
+      "county": "025",
+      "state": "25",
+      "tract": "091001"
+    },
+    {
+      "NAME": "Census Tract 911",
+      "county": "025",
+      "state": "25",
+      "tract": "091100"
+    },
+    {
+      "NAME": "Census Tract 912",
+      "county": "025",
+      "state": "25",
+      "tract": "091200"
+    },
+    {
+      "NAME": "Census Tract 913",
+      "county": "025",
+      "state": "25",
+      "tract": "091300"
+    },
+    {
+      "NAME": "Census Tract 914",
+      "county": "025",
+      "state": "25",
+      "tract": "091400"
+    },
+    {
+      "NAME": "Census Tract 915",
+      "county": "025",
+      "state": "25",
+      "tract": "091500"
+    },
+    {
+      "NAME": "Census Tract 916",
+      "county": "025",
+      "state": "25",
+      "tract": "091600"
+    },
+    {
+      "NAME": "Census Tract 917",
+      "county": "025",
+      "state": "25",
+      "tract": "091700"
+    },
+    {
+      "NAME": "Census Tract 918",
+      "county": "025",
+      "state": "25",
+      "tract": "091800"
+    },
+    {
+      "NAME": "Census Tract 919",
+      "county": "025",
+      "state": "25",
+      "tract": "091900"
+    },
+    {
+      "NAME": "Census Tract 920",
+      "county": "025",
+      "state": "25",
+      "tract": "092000"
+    },
+    {
+      "NAME": "Census Tract 921.01",
+      "county": "025",
+      "state": "25",
+      "tract": "092101"
+    },
+    {
+      "NAME": "Census Tract 922",
+      "county": "025",
+      "state": "25",
+      "tract": "092200"
+    },
+    {
+      "NAME": "Census Tract 923",
+      "county": "025",
+      "state": "25",
+      "tract": "092300"
+    },
+    {
+      "NAME": "Census Tract 924",
+      "county": "025",
+      "state": "25",
+      "tract": "092400"
+    },
+    {
+      "NAME": "Census Tract 1001",
+      "county": "025",
+      "state": "25",
+      "tract": "100100"
+    },
+    {
+      "NAME": "Census Tract 1002",
+      "county": "025",
+      "state": "25",
+      "tract": "100200"
+    },
+    {
+      "NAME": "Census Tract 1003",
+      "county": "025",
+      "state": "25",
+      "tract": "100300"
+    },
+    {
+      "NAME": "Census Tract 1004",
+      "county": "025",
+      "state": "25",
+      "tract": "100400"
+    },
+    {
+      "NAME": "Census Tract 1005",
+      "county": "025",
+      "state": "25",
+      "tract": "100500"
+    },
+    {
+      "NAME": "Census Tract 1006.01",
+      "county": "025",
+      "state": "25",
+      "tract": "100601"
+    },
+    {
+      "NAME": "Census Tract 1006.03",
+      "county": "025",
+      "state": "25",
+      "tract": "100603"
+    },
+    {
+      "NAME": "Census Tract 1007",
+      "county": "025",
+      "state": "25",
+      "tract": "100700"
+    },
+    {
+      "NAME": "Census Tract 1008",
+      "county": "025",
+      "state": "25",
+      "tract": "100800"
+    },
+    {
+      "NAME": "Census Tract 1009",
+      "county": "025",
+      "state": "25",
+      "tract": "100900"
+    },
+    {
+      "NAME": "Census Tract 1010.01",
+      "county": "025",
+      "state": "25",
+      "tract": "101001"
+    },
+    {
+      "NAME": "Census Tract 1010.02",
+      "county": "025",
+      "state": "25",
+      "tract": "101002"
+    },
+    {
+      "NAME": "Census Tract 1011.01",
+      "county": "025",
+      "state": "25",
+      "tract": "101101"
+    },
+    {
+      "NAME": "Census Tract 1011.02",
+      "county": "025",
+      "state": "25",
+      "tract": "101102"
+    },
+    {
+      "NAME": "Census Tract 1101.03",
+      "county": "025",
+      "state": "25",
+      "tract": "110103"
+    },
+    {
+      "NAME": "Census Tract 1102.01",
+      "county": "025",
+      "state": "25",
+      "tract": "110201"
+    },
+    {
+      "NAME": "Census Tract 1103.01",
+      "county": "025",
+      "state": "25",
+      "tract": "110301"
+    },
+    {
+      "NAME": "Census Tract 1104.01",
+      "county": "025",
+      "state": "25",
+      "tract": "110401"
+    },
+    {
+      "NAME": "Census Tract 1104.03",
+      "county": "025",
+      "state": "25",
+      "tract": "110403"
+    },
+    {
+      "NAME": "Census Tract 1105.01",
+      "county": "025",
+      "state": "25",
+      "tract": "110501"
+    },
+    {
+      "NAME": "Census Tract 1105.02",
+      "county": "025",
+      "state": "25",
+      "tract": "110502"
+    },
+    {
+      "NAME": "Census Tract 1106.01",
+      "county": "025",
+      "state": "25",
+      "tract": "110601"
+    },
+    {
+      "NAME": "Census Tract 1106.07",
+      "county": "025",
+      "state": "25",
+      "tract": "110607"
+    },
+    {
+      "NAME": "Census Tract 1201.03",
+      "county": "025",
+      "state": "25",
+      "tract": "120103"
+    },
+    {
+      "NAME": "Census Tract 1201.04",
+      "county": "025",
+      "state": "25",
+      "tract": "120104"
+    },
+    {
+      "NAME": "Census Tract 1201.05",
+      "county": "025",
+      "state": "25",
+      "tract": "120105"
+    },
+    {
+      "NAME": "Census Tract 1202.01",
+      "county": "025",
+      "state": "25",
+      "tract": "120201"
+    },
+    {
+      "NAME": "Census Tract 1203.01",
+      "county": "025",
+      "state": "25",
+      "tract": "120301"
+    },
+    {
+      "NAME": "Census Tract 1204",
+      "county": "025",
+      "state": "25",
+      "tract": "120400"
+    },
+    {
+      "NAME": "Census Tract 1205",
+      "county": "025",
+      "state": "25",
+      "tract": "120500"
+    },
+    {
+      "NAME": "Census Tract 1206",
+      "county": "025",
+      "state": "25",
+      "tract": "120600"
+    },
+    {
+      "NAME": "Census Tract 1207",
+      "county": "025",
+      "state": "25",
+      "tract": "120700"
+    },
+    {
+      "NAME": "Census Tract 1301",
+      "county": "025",
+      "state": "25",
+      "tract": "130100"
+    },
+    {
+      "NAME": "Census Tract 1302",
+      "county": "025",
+      "state": "25",
+      "tract": "130200"
+    },
+    {
+      "NAME": "Census Tract 1303",
+      "county": "025",
+      "state": "25",
+      "tract": "130300"
+    },
+    {
+      "NAME": "Census Tract 1304.02",
+      "county": "025",
+      "state": "25",
+      "tract": "130402"
+    },
+    {
+      "NAME": "Census Tract 1304.04",
+      "county": "025",
+      "state": "25",
+      "tract": "130404"
+    },
+    {
+      "NAME": "Census Tract 1304.06",
+      "county": "025",
+      "state": "25",
+      "tract": "130406"
+    },
+    {
+      "NAME": "Census Tract 1401.02",
+      "county": "025",
+      "state": "25",
+      "tract": "140102"
+    },
+    {
+      "NAME": "Census Tract 1401.05",
+      "county": "025",
+      "state": "25",
+      "tract": "140105"
+    },
+    {
+      "NAME": "Census Tract 1401.06",
+      "county": "025",
+      "state": "25",
+      "tract": "140106"
+    },
+    {
+      "NAME": "Census Tract 1401.07",
+      "county": "025",
+      "state": "25",
+      "tract": "140107"
+    },
+    {
+      "NAME": "Census Tract 1402.01",
+      "county": "025",
+      "state": "25",
+      "tract": "140201"
+    },
+    {
+      "NAME": "Census Tract 1402.02",
+      "county": "025",
+      "state": "25",
+      "tract": "140202"
+    },
+    {
+      "NAME": "Census Tract 1403",
+      "county": "025",
+      "state": "25",
+      "tract": "140300"
+    },
+    {
+      "NAME": "Census Tract 1404",
+      "county": "025",
+      "state": "25",
+      "tract": "140400"
+    },
+    {
+      "NAME": "Census Tract 1601.01",
+      "county": "025",
+      "state": "25",
+      "tract": "160101"
+    },
+    {
+      "NAME": "Census Tract 1602",
+      "county": "025",
+      "state": "25",
+      "tract": "160200"
+    },
+    {
+      "NAME": "Census Tract 1603",
+      "county": "025",
+      "state": "25",
+      "tract": "160300"
+    },
+    {
+      "NAME": "Census Tract 1604",
+      "county": "025",
+      "state": "25",
+      "tract": "160400"
+    },
+    {
+      "NAME": "Census Tract 1605.01",
+      "county": "025",
+      "state": "25",
+      "tract": "160501"
+    },
+    {
+      "NAME": "Census Tract 1605.02",
+      "county": "025",
+      "state": "25",
+      "tract": "160502"
+    },
+    {
+      "NAME": "Census Tract 1606.01",
+      "county": "025",
+      "state": "25",
+      "tract": "160601"
+    },
+    {
+      "NAME": "Census Tract 1606.02",
+      "county": "025",
+      "state": "25",
+      "tract": "160602"
+    },
+    {
+      "NAME": "Census Tract 1701",
+      "county": "025",
+      "state": "25",
+      "tract": "170100"
+    },
+    {
+      "NAME": "Census Tract 1702",
+      "county": "025",
+      "state": "25",
+      "tract": "170200"
+    },
+    {
+      "NAME": "Census Tract 1703",
+      "county": "025",
+      "state": "25",
+      "tract": "170300"
+    },
+    {
+      "NAME": "Census Tract 1704",
+      "county": "025",
+      "state": "25",
+      "tract": "170400"
+    },
+    {
+      "NAME": "Census Tract 1705.01",
+      "county": "025",
+      "state": "25",
+      "tract": "170501"
+    },
+    {
+      "NAME": "Census Tract 1705.02",
+      "county": "025",
+      "state": "25",
+      "tract": "170502"
+    },
+    {
+      "NAME": "Census Tract 1706.01",
+      "county": "025",
+      "state": "25",
+      "tract": "170601"
+    },
+    {
+      "NAME": "Census Tract 1707.01",
+      "county": "025",
+      "state": "25",
+      "tract": "170701"
+    },
+    {
+      "NAME": "Census Tract 1707.02",
+      "county": "025",
+      "state": "25",
+      "tract": "170702"
+    },
+    {
+      "NAME": "Census Tract 1708",
+      "county": "025",
+      "state": "25",
+      "tract": "170800"
+    },
+    {
+      "NAME": "Census Tract 1801.01",
+      "county": "025",
+      "state": "25",
+      "tract": "180101"
+    },
+    {
+      "NAME": "Census Tract 1802",
+      "county": "025",
+      "state": "25",
+      "tract": "180200"
+    },
+    {
+      "NAME": "Census Tract 1803.01",
+      "county": "025",
+      "state": "25",
+      "tract": "180301"
+    },
+    {
+      "NAME": "Census Tract 1804",
+      "county": "025",
+      "state": "25",
+      "tract": "180400"
+    },
+    {
+      "NAME": "Census Tract 1805",
+      "county": "025",
+      "state": "25",
+      "tract": "180500"
+    },
+    {
+      "NAME": "Census Tract 9801.01",
+      "county": "025",
+      "state": "25",
+      "tract": "980101"
+    },
+    {
+      "NAME": "Census Tract 9803",
+      "county": "025",
+      "state": "25",
+      "tract": "980300"
+    },
+    {
+      "NAME": "Census Tract 9807",
+      "county": "025",
+      "state": "25",
+      "tract": "980700"
+    },
+    {
+      "NAME": "Census Tract 9810",
+      "county": "025",
+      "state": "25",
+      "tract": "981000"
+    },
+    {
+      "NAME": "Census Tract 9811",
+      "county": "025",
+      "state": "25",
+      "tract": "981100"
+    },
+    {
+      "NAME": "Census Tract 9812.01",
+      "county": "025",
+      "state": "25",
+      "tract": "981201"
+    },
+    {
+      "NAME": "Census Tract 9812.02",
+      "county": "025",
+      "state": "25",
+      "tract": "981202"
+    },
+    {
+      "NAME": "Census Tract 9813",
+      "county": "025",
+      "state": "25",
+      "tract": "981300"
+    },
+    {
+      "NAME": "Census Tract 9815.01",
+      "county": "025",
+      "state": "25",
+      "tract": "981501"
+    },
+    {
+      "NAME": "Census Tract 9815.02",
+      "county": "025",
+      "state": "25",
+      "tract": "981502"
+    },
+    {
+      "NAME": "Census Tract 9816",
+      "county": "025",
+      "state": "25",
+      "tract": "981600"
+    },
+    {
+      "NAME": "Census Tract 9817",
+      "county": "025",
+      "state": "25",
+      "tract": "981700"
+    },
+    {
+      "NAME": "Census Tract 9818",
+      "county": "025",
+      "state": "25",
+      "tract": "981800"
+    },
+    {
+      "NAME": "Census Tract 9901.01",
+      "county": "025",
+      "state": "25",
+      "tract": "990101"
+    }
+  ]
+}

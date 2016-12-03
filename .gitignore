@@ -1,3 +1,10 @@
+# Private Info
+private.json
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
 # Logs
 logs
 *.log

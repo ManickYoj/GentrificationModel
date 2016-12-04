@@ -166,9 +166,6 @@ function timeStep()
 
 }
 
-// function findShortestPath(currentLocation, newLocation){
-    
-// }
 
 // Shuffle array by swapping elements
 // http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
@@ -191,6 +188,9 @@ function shuffle(array) {
   return array;
 }
 
-// var myFather = new Person("John", "Doe", 50, "blue");
-// document.getElementById("demo").innerHTML =
-// "My father is " + myFather.name();
+//////////////////////////////////////////////////////////////////////////
+//Shortest path algorithm 
+
+// function findShortestPath(currentLocation, newLocation){
+  
+// }

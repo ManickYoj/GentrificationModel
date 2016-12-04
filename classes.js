@@ -1,5 +1,32 @@
+// -- Running Code
 var agentsArray = [];
 var neighborhoodsArray = [];
+loadJSON(
+    'data.json',
+    (data) => { neighborhoodsArray = setup(data) },
+    console.error
+);
+
+
+// -- Definition
+function setup(neighborhoodData) {
+    // TODO: Perform Setup Based on Data HERE
+    console.log(neighborhoodData);
+    return []
+}
+
+function loadJSON(path, success, error)
+{
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = () => {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200 && success) success(JSON.parse(xhr.responseText));
+            else if (error) error(xhr);
+        }
+    };
+    xhr.open("GET", path, true);
+    xhr.send();
+}
 
 function Neighborhood(location, startingRent, housingUnits) {
     this.location = location; // in lat lon

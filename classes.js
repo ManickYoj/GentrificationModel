@@ -8,10 +8,10 @@ function Neighborhood(location, startingRent, housingUnits) {
     this.agents = [];
     this.income = calcIncome(this);
     this.capacity = housingUnits;
-    this.name = function() {
-        // if (this.neighborhood)
-        return this.firstName + " " + this.lastName
-    }
+    // this.name = function() {
+    //     // if (this.neighborhood)
+    //     return this.firstName + " " + this.lastName
+    // }
 }
 
 function calcIncome(neighborhood)
@@ -100,6 +100,7 @@ function monthStep()
   timeStep();
 }
 
+
 // Happens multiple times a month
 function timeStep()
 {
@@ -107,37 +108,64 @@ function timeStep()
   for (var i = 0; i < neighborhoodsArray.length; i++)
   {
     agentsLoopOrder = shuffle(neighborhoodsArray[i].agents); // shuffle agents
-
+    var deltaArray = [];
     //looping through all neighborhoods with lower rent
     for (var k = 0; k < i; k++)
     {
       //check if neighborhood has capacity
       if (neighborhoodsArray[k].agents.length < neighborhoodsArray[k].capacity)
       {
-
-        //determine delta between rent and salary in neighborhood
-        //add neighborhood to list if has high delta
-        //return ordered list of neighborhood sorted by deltas
+        //determine delta between rent and average income in neighborhood
+        var delta = neighborhoodsArray[k].income - neighborhoodsArray[k].rent;
+        //add neighborhood to list return ordered list of neighborhood sorted by deltas
+        deltaArray.push([neighborhoodsArray[k], delta])
       }
     }
+
+    //sort array of arrays by low-high delta
+    deltaArray.sort(function(a, b) {
+        if (a[1] < b[1]) return -1;
+        if (a[1] > b[1]) return 1;
+        return 0;
+      });
 
     // Loop through agents
     for (var j = 0; j < agentsLoopOrder.length; j++)
     {
+      potentialNeighborhoods = [];
       // check if needs to move
       // the neighborhood has gotten too expensive
       if (agentsLoopOrder[j].salary*0.45 >= neighLoopOrder[i].rent)
       {
-        //loop through list of deltas
-        //check that rent of neighborhood is less than 30% of income
-        //return list of 5 top options
-      }
+        //loop through list of deltas - highest to lowest
+        for (k = deltaArray.length -1; k >= 0; k-- ){
+           //check that rent of neighborhood is less than 30% of income
+          if (deltaArray[k][0].rent <= agentsLoopOrder[j].salary*.3){
+            //and check that there is still space in neighborhood
+            if (deltaArray[k][0].agents.length < deltaArray[k][0].capacity){
+              potentialNeighborhoods.push(deltaArray[k][0]);
+              //return list of 5 top options
+              if (potentialNeighborhoods.length == 5){
+                break;
+              }
+            }
 
-        // find place to move to (with pathplanning) on 5 top options
+          }
+        }
+      }
+      // find place to move to (with pathplanning) on 5 top options
+      var distance = Infinity;
+      var closestNeighbor;
+      for (var l = 0; l < potentialNeighborhoods.length; l++){
+        if (findShortestPath(agentsLoopOrder[j].neighborhood, potentialNeighborhoods[l]) < distance){
+          closestNeighbor = potentialNeighborhoods[l]
+        }
+      }
     }
   }
 
 }
+
 
 // Shuffle array by swapping elements
 // http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
@@ -160,6 +188,9 @@ function shuffle(array) {
   return array;
 }
 
-// var myFather = new Person("John", "Doe", 50, "blue");
-// document.getElementById("demo").innerHTML =
-// "My father is " + myFather.name();
+//////////////////////////////////////////////////////////////////////////
+//Shortest path algorithm 
+
+// function findShortestPath(currentLocation, newLocation){
+  
+// }

@@ -1,18 +1,18 @@
 // -- Running Code
 var agentsArray = [];
 var neighborhoodsArray = [];
-loadJSON(
-    'data.json',
-    (data) => { neighborhoodsArray = setup(data) },
-    console.error
-);
+loadJSON('data.json', setup, console.error);
 
 
 // -- Definition
 function setup(neighborhoodData) {
-    // TODO: Perform Setup Based on Data HERE
-    console.log(neighborhoodData);
-    return []
+    neighborhoodData.forEach((el) => {
+        neighborhoodsArray.push( new Neighborhood(
+            [Number(el['Latitude']), Number(el['Longitude'])],
+            Number(el['Median Contract Rent']),
+            Number(el['Housing Units'])
+        ));
+    });
 }
 
 function loadJSON(path, success, error)
@@ -28,8 +28,8 @@ function loadJSON(path, success, error)
     xhr.send();
 }
 
-function Neighborhood(location, startingRent, housingUnits) {
-    this.location = location; // in lat lon
+function Neighborhood(position, startingRent, housingUnits) {
+    this.position = position; // in lat lon
     this.neighbors = [];
     this.rent = startingRent;
     this.agents = [];

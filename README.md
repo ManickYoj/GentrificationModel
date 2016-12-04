@@ -1,6 +1,13 @@
 # GentrificationModel
 An agent-based + cellular automata model of gentrification for Olin's Discrete Math class in Fall 2016
 
+# Library Setup
+This project relies on the [census](https://github.com/CommerceDataService/census-wrapper) package, which can be installed via the command:
+
+```
+pip install census
+```
+
 # API Key Setup
 Note: Setting up API keys is required to modify the basic data underlying the model, but not to run the model.
 

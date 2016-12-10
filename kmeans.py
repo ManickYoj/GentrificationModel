@@ -52,152 +52,174 @@ class State:
 		# set the center (params) based on the new calculated params
 		self.params = tempParams[:]
 
-## Function to calculate the distance between a neighborhood and a state
-## based on the normalized euclidean distance
-def calculateDistance(neighborhood, state, num_values, paramNames, paramsMax, paramsMin):
-	distance = 0
-	for i in range(num_values):
-		if paramNames[i] in neighborhood:
-			if neighborhood[paramNames[i]] is not None: # for null parameters
-				# calculate (xn-yn)^2
-				sub = int(neighborhood[paramNames[i]])-state.params[i]
-				# normalize by axis range
-				normalize = sub/(paramsMax[i]-paramsMin[i])
-				square = normalize**2
-				distance += square
-	# sum tpgether distances for each parameter
-	distance = math.sqrt(distance)
-	return distance
 
-## Function to find the closes centroid to a given neighborhood
-## uses the euclidean distance formula
-def findClosestCentroid(neighborhood, centroids, num_values, paramNames, paramsMax, paramsMin):
-	min_distance = float("inf")
-	closestState = centroids[0]
-	# Find which of the states has the shortest distance to this neighborhood
-	for state in centroids:
-		if calculateDistance(neighborhood, state, num_values, paramNames, paramsMax, paramsMin) < min_distance:
-			min_distance = calculateDistance(neighborhood, state, num_values, paramNames, paramsMax, paramsMin)
-			closestState = state
-	return closestState
+class KMeans:
+	def __init__(self, data, num_states=None):
+		# Set number of states (k) based on the config file
+		if num_states == None:
+			cfg = SafeConfigParser()
+			cfg.read("config.cfg")
+			self.num_states = cfg.getint("modeling", "num_states")
+		
+		#number of characteristics we are clustering with
+		self.num_values = 5  
+		# Names of the parameters in data
+		self.paramNames = ['Housing Units', 'Impoverished Pop', 'Median Contract Rent', 'Median Home Value', 'Median Household Income']
 
+		# lists of the max and min params
+		self.paramsMax = []
+		self.paramsMin = []
 
+		# data (json)
+		self.data = data
 
-def kmeans(data):
-	# TODO: set this based on the config file
-	k = 18 #number of k clusters
-	num_values = 5  #number of characteristics we are clustering with
-	# may want to combine this into a list at some point
-	max_housing = 0
-	max_poverty = 0
-	max_rent = 0
-	max_home = 0
-	max_income = 0
-	min_housing = data[0]['Housing Units']
-	min_poverty = data[0]['Impoverished Pop']
-	min_rent = data[0]['Median Contract Rent']
-	min_home = data[0]['Median Home Value']
-	min_income =data[0]['Median Household Income']
+		self.states = []
+		self.kmeans()
 
-	## The following code was used to determine max values
-	for i in range(len(data)):
-		if 'Housing Units' in data[i]:
-			if data[i]['Housing Units'] is not None:
-				if int(data[i]['Housing Units']) > max_housing:
-					max_housing = int(data[i]['Housing Units'])
-		if 'Impoverished Pop' in data[i]:
-			if data[i]['Impoverished Pop'] is not None:
-				if int(data[i]['Impoverished Pop']) > max_poverty:
-					max_poverty = int(data[i]['Impoverished Pop'])
-		if 'Median Contract Rent' in data[i]:
-			if data[i]['Median Contract Rent'] is not None:
-				if int(data[i]['Median Contract Rent']) > max_rent:
-					max_rent = int(data[i]['Median Contract Rent'])
-		if 'Median Home Value' in data[i]:
-			if data[i]['Median Home Value'] is not None:
-				if int(data[i]['Median Home Value']) > max_home:
-					max_home = int(data[i]['Median Home Value'])
-		if 'Median Household Income' in data[i]:
-			if data[i]['Median Household Income'] is not None:
-				if int(data[i]['Median Household Income']) > max_income:
-					max_income = int(data[i]['Median Household Income'])
+	def calcMinMaxParams(self):
+		max_housing = 0
+		max_poverty = 0
+		max_rent = 0
+		max_home = 0
+		max_income = 0
+		min_housing = data[0]['Housing Units']
+		min_poverty = data[0]['Impoverished Pop']
+		min_rent = data[0]['Median Contract Rent']
+		min_home = data[0]['Median Home Value']
+		min_income =data[0]['Median Household Income']
 
-	# Calculate min
-		if 'Housing Units' in data[i]:
-			if int(data[i]['Housing Units']) < min_housing:
+		## The following code was used to determine max values
+		for i in range(len(data)):
+			if 'Housing Units' in data[i]:
 				if data[i]['Housing Units'] is not None:
-					min_housing = int(data[i]['Housing Units'])
-		if 'Impoverished Pop' in data[i]:
-			if data[i]['Impoverished Pop'] is not None:
-				if int(data[i]['Impoverished Pop']) < min_poverty:
-					min_poverty = int(data[i]['Impoverished Pop'])
-		if 'Median Contract Rent' in data[i]:
-			if data[i]['Median Contract Rent'] is not None:
-				if int(data[i]['Median Contract Rent']) < min_rent:
-					min_rent = int(data[i]['Median Contract Rent'])
-		if 'Median Home Value' in data[i]:
-			if data[i]['Median Home Value'] is not None:
-				if int(data[i]['Median Home Value']) < min_home:
-					min_home = int(data[i]['Median Home Value'])
-		if 'Median Household Income' in data[i]:
-			if data[i]['Median Household Income'] is not None:
-				if int(data[i]['Median Household Income']) < min_income:
-					min_income = int(data[i]['Median Household Income'])
+					if int(data[i]['Housing Units']) > max_housing:
+						max_housing = int(data[i]['Housing Units'])
+			if 'Impoverished Pop' in data[i]:
+				if data[i]['Impoverished Pop'] is not None:
+					if int(data[i]['Impoverished Pop']) > max_poverty:
+						max_poverty = int(data[i]['Impoverished Pop'])
+			if 'Median Contract Rent' in data[i]:
+				if data[i]['Median Contract Rent'] is not None:
+					if int(data[i]['Median Contract Rent']) > max_rent:
+						max_rent = int(data[i]['Median Contract Rent'])
+			if 'Median Home Value' in data[i]:
+				if data[i]['Median Home Value'] is not None:
+					if int(data[i]['Median Home Value']) > max_home:
+						max_home = int(data[i]['Median Home Value'])
+			if 'Median Household Income' in data[i]:
+				if data[i]['Median Household Income'] is not None:
+					if int(data[i]['Median Household Income']) > max_income:
+						max_income = int(data[i]['Median Household Income'])
 
-	# lists of the max and min params
-	paramsMax = [max_poverty, max_income, max_home, max_rent, max_housing]
-	paramsMin = [min_poverty, min_income, min_home, min_rent, min_housing]
+		# Calculate min
+			if 'Housing Units' in data[i]:
+				if int(data[i]['Housing Units']) < min_housing:
+					if data[i]['Housing Units'] is not None:
+						min_housing = int(data[i]['Housing Units'])
+			if 'Impoverished Pop' in data[i]:
+				if data[i]['Impoverished Pop'] is not None:
+					if int(data[i]['Impoverished Pop']) < min_poverty:
+						min_poverty = int(data[i]['Impoverished Pop'])
+			if 'Median Contract Rent' in data[i]:
+				if data[i]['Median Contract Rent'] is not None:
+					if int(data[i]['Median Contract Rent']) < min_rent:
+						min_rent = int(data[i]['Median Contract Rent'])
+			if 'Median Home Value' in data[i]:
+				if data[i]['Median Home Value'] is not None:
+					if int(data[i]['Median Home Value']) < min_home:
+						min_home = int(data[i]['Median Home Value'])
+			if 'Median Household Income' in data[i]:
+				if data[i]['Median Household Income'] is not None:
+					if int(data[i]['Median Household Income']) < min_income:
+						min_income = int(data[i]['Median Household Income'])
+		self.paramsMax = [max_poverty, max_income, max_home, max_rent, max_housing]
+		self.paramsMin = [min_poverty, min_income, min_home, min_rent, min_housing]
 
-	paramNames = ['Housing Units', 'Impoverished Pop', 'Median Contract Rent', 'Median Home Value', 'Median Household Income']
 
-	# start centriods based on the first points
-	point_list = []
-	i = 0
-	params1 = [0]*num_values
-	while len(point_list) < k:
-		append = True
-		params = params1[:] # we need copies of the object
-		# copy all of the parameters into a list
-		for j in range(num_values):
-			if paramNames[j] in data[i]:
-				if data[i][paramNames[j]] is not None:
-					params[j] = int(data[i][paramNames[j]])
-				else:
-					# if even one of the paramters is null, we don't want to use this point
-					append = False
-		if append:
-			point_list.append(params)
-		i+=1
+		
 
-	# Create states based on the centroids
-	states = []
-	for point in point_list:
-		states.append(State(point))
 
-	# loop until centroids stop moving
-	needsToMove = True
-	while (needsToMove):
-		needsToMove = False
-		# clear all neighborhoods from centroids
-		for c in states:
-			c.neighborhoods = []
+	## Function to calculate the distance between a neighborhood and a state
+	## based on the normalized euclidean distance
+	def calculateDistance(self, neighborhood, state):
+		distance = 0
+		for i in range(self.num_values):
+			if self.paramNames[i] in neighborhood:
+				if neighborhood[self.paramNames[i]] is not None: # for null parameters
+					# calculate (xn-yn)^2
+					sub = int(neighborhood[self.paramNames[i]])-state.params[i]
+					# normalize by axis range
+					normalize = sub/(self.paramsMax[i]-self.paramsMin[i])
+					square = normalize**2
+					distance += square
+		# sum tpgether distances for each parameter
+		distance = math.sqrt(distance)
+		return distance
 
-		# assign neighborhoods
-		for neighborhood in data:
-			state = findClosestCentroid(neighborhood, states, num_values, paramNames, paramsMax, paramsMin)
-			state.neighborhoods.append(neighborhood)
+	## Function to find the closes centroid to a given neighborhood
+	## uses the euclidean distance formula
+	def findClosestCentroid(self, neighborhood):
+		min_distance = float("inf")
+		closestState = self.states[0]
+		# Find which of the states has the shortest distance to this neighborhood
+		for state in self.states:
+			if self.calculateDistance(neighborhood, state) < min_distance:
+				min_distance = self.calculateDistance(neighborhood, state)
+				closestState = state
+		return closestState
 
-		## Move the centroids
-		for c in states:
-			c.getNewCenter(paramNames)
-			# if any need to move, then set needsToMove to true
-			needsToMove = needsToMove or c.needsToMove
+	def createInitialStates(self):
+		# start centriods based on the first points
+		point_list = []
+		i = 0
+		params1 = [0]*self.num_values
+		while len(point_list) < self.num_states:
+			append = True
+			params = params1[:] # we need copies of the object
+			# copy all of the parameters into a list
+			for j in range(self.num_values):
+				if self.paramNames[j] in self.data[i]:
+					if self.data[i][self.paramNames[j]] is not None:
+						params[j] = int(self.data[i][self.paramNames[j]])
+					else:
+						# if even one of the paramters is null, we don't want to use this point
+						append = False
+			if append:
+				point_list.append(params)
+			i+=1
 
-		# Uncomment this if you want to print the num neighborhoods in each state	
-		# 	print str(len(c.neighborhoods)) + ", ",
-		# print
+		# Create states based on the centroids
+		for point in point_list:
+			self.states.append(State(point))
+
+	def kmeans(self):
+		self.calcMinMaxParams()
+		self.createInitialStates()
+
+		# loop until centroids stop moving
+		needsToMove = True
+		while (needsToMove):
+			needsToMove = False
+			# clear all neighborhoods from centroids
+			for c in self.states:
+				c.neighborhoods = []
+
+			# assign neighborhoods
+			for neighborhood in self.data:
+				state = self.findClosestCentroid(neighborhood)
+				state.neighborhoods.append(neighborhood)
+
+			## Move the centroids
+			for c in self.states:
+				c.getNewCenter(self.paramNames)
+				# if any need to move, then set needsToMove to true
+				needsToMove = needsToMove or c.needsToMove
+
+			# Uncomment this if you want to print the num neighborhoods in each state	
+				print str(len(c.neighborhoods)) + ", ",
+			print
 
 if __name__ == "__main__":
-	with open('data.json') as data_file:
+	with open('data/data.json') as data_file:
 		data = json.load(data_file)
-	kmeans(data)
+	k = KMeans(data)

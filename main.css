@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "DIN";
+  src: local(fonts/DINOT.otf);
+}
+
+h1 {
+	color: #95D2D7;
+	font-family:  "DIN", sans-serif;
+}
+
+p {
+	color: gray;
+	font-family: "DIN", sans-serif;
+}
+
+body {
+   background: #003a5b;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+path {
+  stroke: white;
+  stroke-width: 0.25px;
+  fill: #0c0c0c;
+}

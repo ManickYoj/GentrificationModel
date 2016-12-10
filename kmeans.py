@@ -14,8 +14,11 @@ class State:
 		# self.housing = initialPosition[4]
 		self.params = initialPosition
 		self.neighborhoods = []
+		self.needsToMove = True # defined by threshold percentage
+		self.movePercent = 0.002
 
 	def getNewCenter(self):
+		self.needsToMove = False
 		tempParams = [0]*len(self.params)
 		tempLen = [0]*len(self.params) # because of null data
 		for n in self.neighborhoods:
@@ -27,6 +30,10 @@ class State:
 		for i in range(len(self.params)):
 			tempParams[i] /= tempLen[i]
 			tempParams[i] = int(tempParams[i])
+			# check if we need to keep moving
+			# by seeing if the percent change is less than threshold
+			if (abs(tempParams[i]-self.params[i])/self.params[i] > self.movePercent):
+				self.needsToMove = True
 		self.params = tempParams[:]
 
 def calculateDistance(neighborhood, state):
@@ -174,31 +181,48 @@ states = []
 for point in point_list:
 	states.append(State(point))
 
+# loop until centroids stop moving
+needsToMove = True
+while (needsToMove):
+	needsToMove = False
+	# clear all neighborhoods from centroids
+	for c in states:
+		c.neighborhoods = []
 
-for neighborhood in data:
-	state = findClosestCentroid(neighborhood, states)
-	state.neighborhoods.append(neighborhood)
+	# assign neighborhoods
+	for neighborhood in data:
+		state = findClosestCentroid(neighborhood, states)
+		state.neighborhoods.append(neighborhood)
 
-for c in states:
-	# if (len(c.neighborhoods) == 0):
-	print len(c.neighborhoods)
-	# print c.params
-# print states[12].params
+	## Move the centroids
+	for c in states:
+		c.getNewCenter()
+		# if any need to move, then set needsToMove to true
+		needsToMove = needsToMove or c.needsToMove
+		print str(len(c.neighborhoods)) + ", ",
 
-## Move the centroids
-for c in states:
-	c.getNewCenter()
+	print
 
-print "MOVE CENTROIDS"
+
+
 # for c in states:
-# 	print c.params
+# 	# if (len(c.neighborhoods) == 0):
+# 	print len(c.neighborhoods)
+# 	# print c.params
+# # print states[12].params
 
-for neighborhood in data:
-	state = findClosestCentroid(neighborhood, states)
-	state.neighborhoods.append(neighborhood)
 
-for c in states:
-# if (len(c.neighborhoods) == 0):
-	print len(c.neighborhoods)
-# print c.params
-# print states[12].params
+
+# print "MOVE CENTROIDS"
+# # for c in states:
+# # 	print c.params
+
+# for neighborhood in data:
+# 	state = findClosestCentroid(neighborhood, states)
+# 	state.neighborhoods.append(neighborhood)
+
+# for c in states:
+# # if (len(c.neighborhoods) == 0):
+# 	print len(c.neighborhoods)
+# # print c.params
+# # print states[12].params

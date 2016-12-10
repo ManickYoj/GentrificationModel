@@ -38,7 +38,7 @@ def loadAPIKey(name):
 	return apiKey
 
 class Data:
-	def __init__(self, load=False, filepath="data.json"):
+	def __init__(self, load=False, filepath="data/data.json"):
 		self.filepath = filepath
 		if load and os.path.isfile(filepath):
 			with open(filepath, "r") as datafile:
@@ -118,7 +118,7 @@ if __name__ == "__main__":
 			data.update(tractdatum['tract'], tractdatum, True)
 
 	# Augment with data loaded from downloaded geojson
-	with open('geodata.geojson', 'r') as geodata:
+	with open('data/geodata.geojson', 'r') as geodata:
 		geofeatures = geojson.load(geodata)['features']
 
 	for tract in geofeatures:

@@ -1,17 +1,17 @@
 # GentrificationModel
-An agent-based + cellular automata model of gentrification for Olin's Discrete Math class in Fall 2016
+An Markov-Chain, Monte-Carlo model of gentrification for Olin's Discrete Math class in Fall 2016
 
-# Library Setup
-This project relies on the [census](https://github.com/CommerceDataService/census-wrapper) package, which can be installed via the command:
-
+# Installation
 ```
-pip install census
+git clone https://github.com/ManickYoj/GentrificationModel.git
+cd GentrificationModel
+pip install -r requirements.txt
 ```
 
 # API Key Setup
 Note: Setting up API keys is required to modify the basic data underlying the model, but not to run the model.
 
-API keys for this model are stored in a private file named `private.json`. Evidently, that file is included in the gitignore so that keys aren't publicly published. To setup your keys, copy the following code into a file in the root directory name `private.json` and fill in your API keys where they are called for.
+API keys for this model are stored in a private file named `private.json`. To not spread API keys around, that file is included in the gitignore so that keys aren't publicly published. To setup your keys, copy the following code into a file in the root directory name `private.json` and fill in your API keys where they are called for.
 
 `private.json`:
 ```

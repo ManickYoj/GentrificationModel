@@ -1,30 +1,29 @@
-@font-face {
-  font-family: "DIN";
-  src: local(fonts/DINOT.otf);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Josefin+Slab|Arvo|Lato|Vollkorn|Abril+Fatface|Old+Standard+TT|Droid+Sans|Lobster|Inconsolata|Montserrat|Playfair+Display|Karla|Alegreya|Libre+Baskerville|Merriweather|Lora|Archivo+Narrow|Neuton|Signika|Questrial|Fjalla+One|Bitter|Varela+Round);
+
+.background {
+  fill: #eee;
+  pointer-events: all;
 }
 
-h1 {
-	color: #95D2D7;
-	font-family:  "DIN", sans-serif;
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
 }
 
-p {
-	color: gray;
-	font-family: "DIN", sans-serif;
+.effect-layer{
+  pointer-events:none;
 }
 
-body {
-   background: #003a5b;
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
-.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+text.big-text{
+  font-size: 30px;
+  font-weight: 400;
 }
 
-path {
-  stroke: white;
-  stroke-width: 0.25px;
-  fill: #0c0c0c;
+.effect-layer text, text.dummy-text{
+  font-size: 12px;
 }

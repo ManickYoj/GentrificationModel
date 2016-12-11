@@ -182,12 +182,15 @@ class KMeans:
 	def classifyNeighborhoods(self, data):
 		# classify by returning a dictionary of tract:state pairs
 		# tracts are described by a number, but stored as a string type
-		neighborhoods = {}
+		neighborhoods = []
 
 		for neighborhood in data:
+			neighborhoodDict = {}
 			state = self.findClosestCentroid(neighborhood)
 			stateIndex = self.states.index(state)
-			neighborhoods[neighborhood['tract']] = stateIndex
+			neighborhoodDict['tract'] = neighborhood['tract']
+			neighborhoodDict['states'] = [stateIndex]
+			neighborhoods.append(neighborhoodDict)
 
 		return neighborhoods
 

@@ -193,7 +193,7 @@ class KMeans:
 
 
 if __name__ == "__main__":
-	with open('data/data.json') as data_file:
+	with open('data/2010.json') as data_file:
 		data = json.load(data_file)
-	k = KMeans(data, 3)
+	k = KMeans(data)
 	print k.classifyNeighborhoods(data)

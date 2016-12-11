@@ -88,7 +88,7 @@ class KMeans:
 
 		# Find minimum and maximum values for all properties
 		for prop in props.keys():
-			for neighborhood_datum in data:
+			for neighborhood_datum in self.data:
 				if prop in neighborhood_datum:
 					if neighborhood_datum[prop] is not None:
 						props[prop].append(int(neighborhood_datum[prop]))
@@ -179,15 +179,25 @@ class KMeans:
 			# 	print str(len(c.neighborhoods)) + ", ",
 			# print
 
-	def classifyNeighborhoods(self, data):
+	def classifyNeighborhoods(self, dataList):
 		# classify by returning a dictionary of tract:state pairs
 		# tracts are described by a number, but stored as a string type
-		neighborhoods = {}
+		neighborhoods = []
+		neighborhoodsDicts = {}
 
-		for neighborhood in data:
-			state = self.findClosestCentroid(neighborhood)
-			stateIndex = self.states.index(state)
-			neighborhoods[neighborhood['tract']] = stateIndex
+		for index,data in enumerate(dataList):
+			for neighborhood in data:
+				state = self.findClosestCentroid(neighborhood)
+				stateIndex = self.states.index(state)
+				if (index == 0):
+					neighborhoodsDicts[neighborhood['tract']] = []
+				neighborhoodsDicts[neighborhood['tract']].append(stateIndex)
+
+		for tract in neighborhoodsDicts:
+			miniDict = {}
+			miniDict['tract'] = tract
+			miniDict['states'] = neighborhoodsDicts[tract]
+			neighborhoods.append(miniDict)
 
 		return neighborhoods
 
@@ -196,4 +206,4 @@ if __name__ == "__main__":
 	with open('data/2010.json') as data_file:
 		data = json.load(data_file)
 	k = KMeans(data)
-	print k.classifyNeighborhoods(data)
+	print k.classifyNeighborhoods([data])

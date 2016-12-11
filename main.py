@@ -10,7 +10,6 @@ if __name__ == "__main__":
 	datafiles = []
 	for filename in datafilenames:
 		with open(filename) as data_file:
-			print data_file
 			data = json.load(data_file)
 			datafiles.append(data)
 	k = kmeans.KMeans(datafiles[0]) # train on first year

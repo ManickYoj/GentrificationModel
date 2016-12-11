@@ -1,6 +1,9 @@
 # Private Info
 private.json
 
+# Python
+*.pyc
+
 # Sublime
 *.sublime-project
 *.sublime-workspace

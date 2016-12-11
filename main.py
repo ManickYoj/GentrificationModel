@@ -1,5 +1,5 @@
 import kmeans
-import trainer 
+import trainer
 import json
 # Import all data
 
@@ -21,7 +21,7 @@ if __name__ == "__main__":
 	# input: {'tract':<tract>, 'states':[<list of states over time>]}
 	# outputs: kxk matrix
 	#		[[from state 1 to all others], ...]
-	probMatrix = trainer.trainModel(neighborhoodDict)
+	probMatrix, testData = trainer.trainModel(neighborhoodDict)
 	trainer.visualize(probMatrix)
 
 	# Model stuff

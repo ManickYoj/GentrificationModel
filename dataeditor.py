@@ -101,8 +101,9 @@ class Data:
 # -- Running Code
 
 if __name__ == "__main__":
+	YEAR = 2013;
 	c = Census(loadAPIKey('census'));
-	data = Data()
+	data = Data(filepath="data/{}.json".format(YEAR))
 
 	# Pull census data to create the data file
 	for county in COUNTIES.keys():
@@ -111,7 +112,7 @@ if __name__ == "__main__":
 			states.MA.fips,
 			COUNTIES[county],
 			Census.ALL,
-			year="2010"
+			year=str(YEAR)
 		)
 
 		for tractdatum in tractdata:

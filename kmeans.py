@@ -16,7 +16,7 @@ class State:
 		# List of neighborhoods in this group (each neighborhood is a json object)
 		self.neighborhoods = []
 		# We want to stop moving the centroids of the states eventually
-		# If parameters move less than 0.2% from the previous value, they have stopped 
+		# If parameters move less than 0.2% from the previous value, they have stopped
 		self.needsToMove = True # they all start out moving
 		self.movePercent = 0.002 # threshold percentage
 
@@ -27,9 +27,9 @@ class State:
 		self.needsToMove = False # will set to true later if still need to move
 
 		# helper var for calculating new params
-		tempParams = [0]*len(self.params) 
+		tempParams = [0]*len(self.params)
 		# because of null data, we divide by the number of neighborhoods for each param
-		tempLen = [0]*len(self.params) 
+		tempLen = [0]*len(self.params)
 
 		# Loop through all the neighborhoods to get average
 		for n in self.neighborhoods:
@@ -60,7 +60,9 @@ class KMeans:
 			cfg = SafeConfigParser()
 			cfg.read("config.cfg")
 			self.num_states = cfg.getint("modeling", "num_states")
-		
+		else:
+			self.num_states = num_states
+
 		# Names of the parameters in data
 		self.paramNames = []
 
@@ -127,7 +129,7 @@ class KMeans:
 		return closestState
 
 	def createInitialStates(self):
-		# start centriods based on the first points
+		# start centroids based on the first points
 		point_list = []
 		i = 0
 		params1 = [0]*len(self.paramNames)
@@ -140,7 +142,7 @@ class KMeans:
 					if self.data[i][self.paramNames[j]] is not None:
 						params[j] = int(self.data[i][self.paramNames[j]])
 					else:
-						# if even one of the paramters is null, we don't want to use this point
+						# if even one of the parameters is null, we don't want to use this point
 						append = False
 			if append:
 				point_list.append(params)
@@ -173,7 +175,7 @@ class KMeans:
 				# if any need to move, then set needsToMove to true
 				needsToMove = needsToMove or c.needsToMove
 
-			# Uncomment this if you want to print the num neighborhoods in each state	
+			# Uncomment this if you want to print the num neighborhoods in each state
 			# 	print str(len(c.neighborhoods)) + ", ",
 			# print
 
@@ -193,5 +195,5 @@ class KMeans:
 if __name__ == "__main__":
 	with open('data/data.json') as data_file:
 		data = json.load(data_file)
-	k = KMeans(data)
+	k = KMeans(data, 3)
 	print k.classifyNeighborhoods(data)

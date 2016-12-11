@@ -88,7 +88,7 @@ class KMeans:
 
 		# Find minimum and maximum values for all properties
 		for prop in props.keys():
-			for neighborhood_datum in data:
+			for neighborhood_datum in self.data:
 				if prop in neighborhood_datum:
 					if neighborhood_datum[prop] is not None:
 						props[prop].append(int(neighborhood_datum[prop]))

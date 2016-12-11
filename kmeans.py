@@ -174,11 +174,24 @@ class KMeans:
 				needsToMove = needsToMove or c.needsToMove
 
 			# Uncomment this if you want to print the num neighborhoods in each state	
-				print str(len(c.neighborhoods)) + ", ",
-			print
+			# 	print str(len(c.neighborhoods)) + ", ",
+			# print
+
+	def classifyNeighborhoods(self, data):
+		# classify by returning a dictionary of tract:state pairs
+		# tracts are described by a number, but stored as a string type
+		neighborhoods = {}
+
+		for neighborhood in data:
+			state = self.findClosestCentroid(neighborhood)
+			stateIndex = self.states.index(state)
+			neighborhoods[neighborhood['tract']] = stateIndex
+
+		return neighborhoods
+
 
 if __name__ == "__main__":
 	with open('data/data.json') as data_file:
 		data = json.load(data_file)
 	k = KMeans(data)
-	# k.classifyNeighborhoods(data)
+	print k.classifyNeighborhoods(data)

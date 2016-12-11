@@ -48,8 +48,8 @@ var bigText = g.append('text')
   .attr('y', 45);
 
 // Load map data
-d3.json('geodata.geojson', function(error, mapData) {
-  d3.json('boston.json', function(error, data){
+d3.json('data/geodata.geojson', function(error, mapData) {
+  d3.json('data/boston.json', function(error, data){
 
   var features = mapData.features;
   var points = data.features

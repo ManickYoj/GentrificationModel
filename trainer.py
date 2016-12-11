@@ -10,6 +10,32 @@ matrix used for the Markov Chain Monte Carlo (MCMC) simulation
 from ConfigParser import SafeConfigParser
 import seaborn as sb
 
+def trainModel(neighboorhoodData, num_states=None):
+	'''
+	Adapts the neighborhood data to the Trainer class.
+	The incoming data is of format:
+		[
+			{
+				tract: <tract>
+				states: [<states>]
+			}
+		]
+	'''
+	if num_states == None:
+		cfg = SafeConfigParser()
+		cfg.read("config.cfg")
+		num_states = cfg.getint("modeling", "num_states")
+
+	trainers = [Trainer(num_states) for i in range(num_states)]
+	states = [n['states'] for n in neighboorhoodData]
+	for transitions in states:
+		fromState = transitions[0]
+		for toState in transitions[1:]:
+			trainers[fromState].update(toState)
+			fromState = toState
+
+	return [t.output() for t in trainers]
+
 class Trainer:
 	'''
 	Models the probability that a single state will transition
@@ -80,8 +106,21 @@ def normalize(value_list):
 
 # Testing code
 if __name__ == "__main__":
-	b = Trainer()
-	evidence = [0, 0, 1, 2, 5, 7, 16, 16, 17]
-	b.update(evidence)
-	print b.output()
-	visualize([b.output()])
+	# Test individual trainers
+	# b = Trainer()
+	# evidence = [0, 0, 1, 2, 5, 7, 16, 16, 17]
+	# b.update(evidence)
+	# print b.output()
+	# visualize([b.output()])
+
+
+	# Test trainModel
+	m = trainModel([
+		{
+			"states": [0, 1],
+		},
+		{
+			"states": [0, 1],
+		},
+	], 2)
+	# visualize(m)

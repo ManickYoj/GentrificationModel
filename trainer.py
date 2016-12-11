@@ -29,18 +29,16 @@ def trainModel(neighboorhoodData, train_fraction=.7, num_states=None):
 		cfg.read("config.cfg")
 		num_states = cfg.getint("modeling", "num_states")
 
-	# Pluck state progression from data
-	states = [n['states'] for n in neighboorhoodData]
-
 	# Select training and test data
-	random.shuffle(states)
-	pivot = int(train_fraction * len(states))
-	trainingData = states[:pivot]
-	testData = states[pivot:]
+	random.shuffle(neighboorhoodData)
+	pivot = int(train_fraction * len(neighboorhoodData))
+	trainingData = neighboorhoodData[:pivot]
+	testData = neighboorhoodData[pivot:]
 
-	# Train model
+	# Pluck state progression from data
+	states = [n['states'] for n in trainingData]
 	trainers = [Trainer(num_states) for i in range(num_states)]
-	for transitions in trainingData:
+	for transitions in states:
 		fromState = transitions[0]
 		for toState in transitions[1:]:
 			trainers[fromState].update(toState)

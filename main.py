@@ -2,6 +2,7 @@ import kmeans
 import trainer
 import json
 import markov
+import configGeojson
 # Import all data
 
 
@@ -33,3 +34,5 @@ if __name__ == "__main__":
 
 	# Export for viz
 	# want json {'tract':<tract>, 'states':[<list of states over time>]}
+	
+	configGeojson.configureGeojson(outputDict)

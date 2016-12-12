@@ -17,13 +17,12 @@ def configureGeojson(modelData):
 	#loop through all elements of the geodata
 	for obj in geojson["features"]:
 		#find the tract number for each element
-		tract = int(obj["properties"]["TRACTCE10"])
+		tract = obj["properties"]["TRACTCE10"]
 		if tract in modelData:
 			#set the states attribute of that tract object to 
 			#the list of states from the model data
 			obj["properties"]["states"] = modelData[tract]
 
-	print (year_max-year_min)
 	geojson["numStates"] = num_states
 	geojson["minYear"] = year_min
 	geojson["maxYear"] = year_max

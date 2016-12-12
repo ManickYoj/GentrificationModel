@@ -1,6 +1,7 @@
 import kmeans
 import trainer
 import json
+import markov
 # Import all data
 
 
@@ -21,14 +22,14 @@ if __name__ == "__main__":
 	# outputs: kxk matrix
 	#		[[from state 1 to all others], ...]
 	probMatrix, testData = trainer.trainModel(neighborhoodDict)
-	trainer.visualize(probMatrix)
+	# trainer.visualize(probMatrix)
 
 	# Model stuff
 	# input: neighborhoodDict, probMatrix
 	# output: json {'tract':<tract>, 'states':[<list of states over time>]}
 	# this will fill in the list
-	# m = Markov(neighborhoodDict, probMatrix)
-	# outputDict = m.run()
+	m = markov.Markov(neighborhoodDict, probMatrix)
+	outputDict = m.runSim()
 
 	# Export for viz
 	# want json {'tract':<tract>, 'states':[<list of states over time>]}

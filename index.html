@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<input id="yearSlider" type="range" min=2010 max=2013 step=1 defaultValue=2010 onchange="setYear"/>
+	<input id="yearSlider" type="range" min=2010 max=2013 step=1 value=2010 oninput="setYear(this.value)"/>
 	<h1>This is a heading</h1>
 	<p>This is a paragraph.</p>
 	<svg id="vis"></svg>

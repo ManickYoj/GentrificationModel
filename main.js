@@ -84,10 +84,9 @@ function setYear(year=minYear) {
   yearIndex = year - minYear;
   if (yearIndex < 0 || yearIndex > maxYear-minYear) {
     console.error("Year out of range!");
-    return
+    return;
   }
 
   neighborhoodLayer.selectAll('path')
-    .selectAll('path')
     .attr('fill', (d) => colorScale(d.properties.states[yearIndex]))
 }

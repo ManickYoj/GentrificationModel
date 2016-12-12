@@ -5,12 +5,14 @@
 </head>
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
- <svg id="vis"></svg>
+	<input id="yearSlider" type="range" min=2010 max=2013 step=1 defaultValue=2010 onchange="setYear"/>
+	<h1>This is a heading</h1>
+	<p>This is a paragraph.</p>
+	<svg id="vis"></svg>
 </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.19.0/babel.min.js" charset="utf-8"></script>
   <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
-	<script src="//d3js.org/topojson.v1.min.js"></script>
+	<!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
   <script src = "main.js"></script>
 </html>

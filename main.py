@@ -34,5 +34,5 @@ if __name__ == "__main__":
 
 	# Export for viz
 	# want json {'tract':<tract>, 'states':[<list of states over time>]}
-	
+
 	configGeojson.configureGeojson(outputDict)

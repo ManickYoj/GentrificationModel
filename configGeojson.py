@@ -10,18 +10,23 @@ def configureGeojson(modelData):
 
 	#load geodata file representing where each tract is
 	with open('data/geodata.geojson') as data_file:
-			geojson = json.load(data_file)
+			basegeojson = json.load(data_file)
+
+	geojson = {
+		"features": [],
+	}
 
 	#load data from model indicating which states each tract is in
 
 	#loop through all elements of the geodata
-	for obj in geojson["features"]:
+	for obj in basegeojson["features"]:
 		#find the tract number for each element
 		tract = obj["properties"]["TRACTCE10"]
 		if tract in modelData:
-			#set the states attribute of that tract object to 
+			#set the states attribute of that tract object to
 			#the list of states from the model data
 			obj["properties"]["states"] = modelData[tract]
+			geojson["features"].append(obj)
 
 	geojson["numStates"] = num_states
 	geojson["minYear"] = year_min

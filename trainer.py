@@ -30,15 +30,15 @@ def trainModel(neighboorhoodData, train_fraction=.7, num_states=None):
 		num_states = cfg.getint("modeling", "num_states")
 
 	# Select training and test data
+	neighboorhoodData = neighboorhoodData.values()
 	random.shuffle(neighboorhoodData)
 	pivot = int(train_fraction * len(neighboorhoodData))
 	trainingData = neighboorhoodData[:pivot]
 	testData = neighboorhoodData[pivot:]
 
 	# Pluck state progression from data
-	states = [n['states'] for n in trainingData]
 	trainers = [Trainer(num_states) for i in range(num_states)]
-	for transitions in states:
+	for transitions in trainingData:
 		fromState = transitions[0]
 		for toState in transitions[1:]:
 			trainers[fromState].update(toState)
@@ -124,12 +124,8 @@ if __name__ == "__main__":
 
 
 	# Test trainModel
-	m = trainModel([
-		{
-			"states": [0, 1],
-		},
-		{
-			"states": [0, 1],
-		},
-	], num_states=2)
+	m = trainModel({
+		"123456": [0, 1],
+		"234567": [0, 1],
+	}, num_states=2)
 	visualize(m[0])

@@ -193,13 +193,13 @@ class KMeans:
 					neighborhoodsDicts[neighborhood['tract']] = []
 				neighborhoodsDicts[neighborhood['tract']].append(stateIndex)
 
-		for tract in neighborhoodsDicts:
-			miniDict = {}
-			miniDict['tract'] = tract
-			miniDict['states'] = neighborhoodsDicts[tract]
-			neighborhoods.append(miniDict)
+		# for tract in neighborhoodsDicts:
+		# 	miniDict = {}
+		# 	miniDict['tract'] = tract
+		# 	miniDict['states'] = neighborhoodsDicts[tract]
+		#	neighborhoods.append(miniDict)
 
-		return neighborhoods
+		return neighborhoodsDicts
 
 
 if __name__ == "__main__":

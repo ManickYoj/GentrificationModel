@@ -9,8 +9,9 @@ matrix used for the Markov Chain Monte Carlo (MCMC) simulation
 
 from ConfigParser import SafeConfigParser
 import seaborn as sb
+import random
 
-def trainModel(neighboorhoodData, num_states=None):
+def trainModel(neighboorhoodData, train_fraction=.7, num_states=None):
 	'''
 	Adapts the neighborhood data to the Trainer class.
 	The incoming data is of format:
@@ -21,20 +22,29 @@ def trainModel(neighboorhoodData, num_states=None):
 			}
 		]
 	'''
+
+	# Load the number of possible states from config, unless one is provided
 	if num_states == None:
 		cfg = SafeConfigParser()
 		cfg.read("config.cfg")
 		num_states = cfg.getint("modeling", "num_states")
 
+	# Select training and test data
+	random.shuffle(neighboorhoodData)
+	pivot = int(train_fraction * len(neighboorhoodData))
+	trainingData = neighboorhoodData[:pivot]
+	testData = neighboorhoodData[pivot:]
+
+	# Pluck state progression from data
+	states = [n['states'] for n in trainingData]
 	trainers = [Trainer(num_states) for i in range(num_states)]
-	states = [n['states'] for n in neighboorhoodData]
 	for transitions in states:
 		fromState = transitions[0]
 		for toState in transitions[1:]:
 			trainers[fromState].update(toState)
 			fromState = toState
 
-	return [t.output() for t in trainers]
+	return ([t.output() for t in trainers], testData)
 
 class Trainer:
 	'''
@@ -91,7 +101,6 @@ def visualize(data):
 	'''
 	Plots a list of lists (matrix) as a heatmap.
 	'''
-
 	sb.heatmap(data, square=True, xticklabels=2, yticklabels=2,linewidths=.5)
 	sb.plt.show()
 
@@ -122,5 +131,5 @@ if __name__ == "__main__":
 		{
 			"states": [0, 1],
 		},
-	], 2)
-	# visualize(m)
+	], num_states=2)
+	visualize(m[0])

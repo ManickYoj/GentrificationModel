@@ -31,8 +31,9 @@ for obj in geojson["features"]:
 		obj["properties"]["states"] = modelData[tract]
 
 print (year_max-year_min)
-geojson["num_states"] = num_states
-geojson["num_years"] = year_max-year_min
+geojson["numStates"] = num_states
+geojson["minYear"] = year_min
+geojson["maxYear"] = year_max
 
 #write the geojson data into a new file
 #so that the origina data doesn't get overwritten

@@ -9,18 +9,19 @@ matrix used for the Markov Chain Monte Carlo (MCMC) simulation
 
 from ConfigParser import SafeConfigParser
 import seaborn as sb
+import numpy as np
 import random
 
-def trainModel(neighboorhoodData, train_fraction=.7, num_states=None):
+def trainModel(neighboorhoodData, train_fraction=.7, num_states=None, convergenceIterations=0):
 	'''
 	Adapts the neighborhood data to the Trainer class.
 	The incoming data is of format:
-		[
-			{
+		{
+			<tract>: {
 				tract: <tract>
 				states: [<states>]
 			}
-		]
+		{
 	'''
 
 	# Load the number of possible states from config, unless one is provided
@@ -44,7 +45,14 @@ def trainModel(neighboorhoodData, train_fraction=.7, num_states=None):
 			trainers[fromState].update(toState)
 			fromState = toState
 
-	return ([t.output() for t in trainers], testData)
+	matrix = [t.output() for t in trainers]
+
+	if convergenceIterations:
+		m = np.array(matrix)
+		m = np.linalg.matrix_power(m, convergenceIterations)
+		matrix = m.tolist()
+
+	return (matrix, testData)
 
 class Trainer:
 	'''

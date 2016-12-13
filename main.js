@@ -54,7 +54,7 @@ var bigText = g.append('text')
 var yearIndex = 0;
 
 // Load map data
-d3.json('data/boston.json', function(error, boundaryData){
+d3.json('data/towns.geojson', function(error, boundaryData){
   // Draw each province as a path
   mapLayer.selectAll('path')
     .data(boundaryData.features)

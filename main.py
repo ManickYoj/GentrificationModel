@@ -16,6 +16,9 @@ if __name__ == "__main__":
 			datafiles.append(data)
 	k = kmeans.KMeans(datafiles[0]) # train on first year
 	neighborhoodDict = k.classifyNeighborhoods(datafiles)
+	paramNames, statesDict = k.getParams()
+	print paramNames
+	print statesDict
 	# form is {'tract':<tract>, 'states':[<list of states over time>]}
 
 	# Bayesian

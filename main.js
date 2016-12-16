@@ -2,7 +2,7 @@ let minYear = 2010;
 let maxYear = 2020;
 let numStates = 18;
 
-var width = 960,
+var width = 800,
   height = 500,
   centered;
 
@@ -11,7 +11,7 @@ var colorScale = d3.scale.category20();
 
 // Center the Map in Boston
 var projection = d3.geo.mercator()
-  .scale(35500)
+  .scale(37550)
   .center([-71, 42.4])
   .translate([width / 2, height / 2]);
 
@@ -89,4 +89,7 @@ function setYear(year=minYear) {
 
   neighborhoodLayer.selectAll('path')
     .attr('fill', (d) => colorScale(d.properties.states[yearIndex]))
+
+  document.getElementById("year_number").innerHTML=year;
 }
+

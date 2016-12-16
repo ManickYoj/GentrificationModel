@@ -4,11 +4,13 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
-	<input id="yearSlider" type="range" min=2010 max=2013 step=1 value=2010 oninput="setYear(this.value)"/>
-	<h1>This is a heading</h1>
-	<p>This is a paragraph.</p>
+	<h1>Modeling Gentrification</h1>
+	<p>Annabel Consilvio, Nick Francisci, Anisha Nakagawa</p>
+	<p> Year: <span id="year_number">2010</span><br>
+		<input id="yearSlider" type="range" min=2010 max=2013 step=1 value=2010 oninput="setYear(this.value)"/>
+	</p>
 	<svg id="vis"></svg>
+	<img src = "images/legend.png" style="float:right">
 </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.19.0/babel.min.js" charset="utf-8"></script>

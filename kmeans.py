@@ -79,7 +79,7 @@ class KMeans:
 	def calcMinMaxParams(self):
 
 		props = {
-		'Housing Units': [],
+		# 'Housing Units': [],
 		'Impoverished Pop': [],
 		'Median Contract Rent': [],
 		'Median Home Value': [],
@@ -200,6 +200,16 @@ class KMeans:
 		#	neighborhoods.append(miniDict)
 
 		return neighborhoodsDicts
+
+	def getParams(self):
+		statesDict = {}
+		for i in range(len(self.states)):
+			statesDict[str(i)] = self.states[i].params
+			# print "state: " + str(i) + " num neighborhoods: " + str(len(self.states[i].neighborhoods))
+		# print self.paramNames
+		print self.paramsMax
+		print self.paramsMin
+		return self.paramNames, statesDict
 
 
 if __name__ == "__main__":

@@ -7,12 +7,13 @@ var width = 800,
   centered;
 
 // Define color scale
-var colorScale = d3.scale.category20();
+// var colorScale = d3.scale.category20();
+var colorScale = ['#581845', '#16a085', '#e67e22'];
 
 // Center the Map in Boston
 var projection = d3.geo.mercator()
-  .scale(37550)
-  .center([-71, 42.4])
+  .scale(100000)
+  .center([-71.09, 42.35])
   .translate([width / 2, height / 2]);
 
 var path = d3.geo.path()
@@ -53,6 +54,7 @@ var bigText = g.append('text')
 
 var yearIndex = 0;
 
+
 // Load map data
 d3.json('data/towns.geojson', function(error, boundaryData){
   // Draw each province as a path
@@ -77,7 +79,7 @@ d3.json('data/gent-geodata.geojson', function(error, gentGeoData) {
   .enter().append('path')
   .attr('d', path)
   .attr('vector-effect', 'non-scaling-stroke')
-  .attr('fill', (d) => colorScale(d.properties.states[0]))
+  .attr('fill', (d) => colorScale[d.properties.states[0]])
 })
 
 function setYear(year=minYear) {
@@ -88,7 +90,7 @@ function setYear(year=minYear) {
   }
 
   neighborhoodLayer.selectAll('path')
-    .attr('fill', (d) => colorScale(d.properties.states[yearIndex]))
+    .attr('fill', (d) => colorScale[d.properties.states[yearIndex]])
 
   document.getElementById("year_number").innerHTML=year;
 }
